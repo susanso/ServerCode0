@@ -1,0 +1,1138 @@
+@charset "UTF-8";
+/* 모바일 */
+@media ( max-width : 375px) {
+	.logoGif {
+		width: 300px;
+	    margin: 0 auto;
+	    background: url(../../image/logoMotion300.gif);
+	    background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+		position: relative;
+	    height: 140px;
+	    bottom: -2px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+	    padding: 0;
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 0.8em;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+  		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		margin-top: 23px;
+  		text-align: right;
+	}
+	.visionMainTitle {
+		font-size: 1.5em;
+	    font-weight: bold;
+	    margin-bottom: 0.5em;
+	}
+	.visionSubTitle {
+	    font-size: 0.6em;
+  		margin: 0;
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+	    background-size: contain;
+        height: 310px;
+	    background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#subTitleImg{
+	    height: 30px;
+	}
+	.subTitleImg{
+	    padding: 0;
+    	text-align: center;
+	}
+	.defaultTitleBox01{
+		margin-bottom: 2em;
+	}
+	.defaultTitleBox02{
+		margin-bottom: 2em;
+		padding: 0;
+	}
+	.defaultTitleBox01>p {
+	    font-size: 1.5em;
+	    text-align: center;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.defaultTitleBox02>p {
+	    margin: 0;
+        font-size: 0.7em;
+	}
+	.defaultTitleBox03 {
+		margin-top: 1em;
+	}
+	.defaultTitleBox03Li {
+		text-align: left;
+		height: 55px;
+	}
+	.defaultTitleBox03Title {
+	    font-weight: 600;
+	    margin-bottom: 0.3em;
+	    font-size: 0.8em;
+	}
+	.defaultTitleBox03subTitle {
+	    margin: 0;
+	    font-size: 0.7em;
+	}
+	.defaultSignUpBtn {
+		color: fff;
+	    cursor: pointer;
+	    width: 95px;
+	    height: 41px;
+	    display: flex;
+	    font-size: 0.9em;
+	    justify-content: center;
+	    align-items: center;
+	    box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		margin-top: 2.4em;
+		display: flex;
+	    justify-content: flex-end;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+        width: 129px;
+   	 	height: 70px;	
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 1em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 4px;
+	}
+	.subTitleImgLi{
+	    display: inline-block;
+	    width: 160px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+}
+/* 웹최소	 */
+@media ( min-width : 376px) and (max-width: 575px) {
+	.logoGif {
+		width: 300px;
+	    margin: 0 auto;
+	    background: url(../../image/logoMotion300.gif);
+	    background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+	    position: relative;
+	    height: 140px;
+	    bottom: -2px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+	    padding: 0;
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 0.8em;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+  		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		margin-top: 23px;
+  		text-align: right;
+	}
+	.visionMainTitle {
+		font-size: 1.6em;
+	    font-weight: bold;
+	    margin-bottom: 0em;
+	}
+	.visionSubTitle {
+	    font-size: 0.7em;
+  		margin: 0;
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+	    background-size: contain;
+        height: 255px;
+	    background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#subTitleImg{
+	    height: 20px;
+	}
+	.subTitleImg{
+	    padding: 0;
+    	text-align: center;
+	}
+	.defaultTitleBox01{
+		margin-bottom: 2em;
+	}
+	.defaultTitleBox01>p {
+	    font-size: 1.5em;
+	    text-align: center;
+	    font-weight: bold;
+	    margin-bottom: 0;
+	}
+	.defaultTitleBox02>p {
+	    margin: 0;
+        font-size: 0.9em;
+	}
+	.defaultTitleBox03 {
+		margin-top: 1em;
+	}
+	.defaultTitleBox03Li {
+		text-align: left;
+		height: 55px;
+	}
+	.defaultTitleBox03Title {
+	    font-weight: 600;
+	    margin-bottom: 0.3em;
+	    font-size: 0.8em;
+	}
+	.defaultTitleBox03subTitle {
+	    margin: 0;
+	    font-size: 0.7em;
+	}
+	.defaultSignUpBtn {
+		color: fff;
+	    cursor: pointer;
+	    width: 95px;
+	    height: 41px;
+	    display: flex;
+	    font-size: 0.9em;
+	    justify-content: center;
+	    align-items: center;
+	    box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		display: flex;
+	    justify-content: flex-end;
+        margin-top: 1.5em;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+	    width: 129px;
+   	 	height: 70px;
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 1em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 4px;
+	}
+	.defaultTitleBox02{
+		padding: 0;
+	}
+	.subTitleImgLi{
+	    display: inline-block;
+	    width: 100px;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+}
+
+/* // 가로모드 모바일 디바이스 (가로 해상도가 576px보다 크고 768px 보다 작은 화면에 적용) */
+@media ( min-width : 576px) and (max-width: 767px) {
+	.logoGifBox {
+		
+	}
+	.logoGif {
+		height: 400px;
+		width: 100%;
+		margin: 0 auto;
+		background: url(../../image/logoMotion900.gif);
+		background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+		position: relative;
+	    height: 140px;
+	    bottom: -251px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 18px;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		/* 	    color: #aeaeae; */
+		margin-top: 65px;
+		text-align: right;
+	}
+	.visionMainTitle {
+		font-size: 2.6em;
+		font-weight: bold;
+		margin-bottom: 0.8em;
+	}
+	.visionSubTitle {
+		
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+		background-size: contain;
+		height: 400px;
+		background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#defaultWaveform {
+		margin: 0 auto;
+	}
+	.defaultTitleBox01{
+	    margin-bottom: 3em;
+	}
+	.defaultTitleBox01>p {
+		font-size: 2em;
+		text-align: center;
+		font-weight: bold;
+	}
+	.defaultTitleBox02>p {
+	    text-align: center;
+		margin-bottom: 0.3em;
+	}
+	.defaultTitleBox03 {
+		margin-top: 4em;
+	}
+	.defaultTitleBox03Li {
+		margin-bottom: 1em;
+		text-align: left;
+		height: 80px;
+	}
+	.defaultTitleBox03Title {
+		font-size: 1.2em;
+		font-weight: 600;
+		/* 	    margin: 0; */
+		margin-bottom: 0.3em;
+	}
+	.defaultTitleBox03subTitle {
+		display: flex;
+		margin: 0;
+	}
+	#subTitleImg{
+	    height: 30px;
+	}
+	.subTitleImg {
+		padding:0;
+	}
+	.defaultSignUpBtn {
+		color: fff;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		display: flex;
+	    justify-content: flex-end;
+	    margin-top: 0.5em;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+	    width: 269px;
+	    height: 150px;	
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 2em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 13px;
+	}
+	.defaultTitleBox02{
+		padding: 0;
+	}
+	.subTitleImgLi{
+	   display: inline-block;
+	   width: 120px;
+	   text-align: center;
+	}
+}
+/* // 태블릿 디바이스 (가로 해상도가 768px보다 크고 991px 보다 작은 화면에 적용) */
+@media ( min-width : 768px) and (max-width: 991px) {
+	.logoGifBox {
+		
+	}
+	.logoGif {
+		height: 400px;
+		width: 100%;
+		margin: 0 auto;
+		background: url(../../image/logoMotion900.gif);
+		background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+		position: relative;
+	    height: 140px;
+	    bottom: -251px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 18px;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		/* 	    color: #aeaeae; */
+		margin-top: 65px;
+	}
+	.visionMainTitle {
+		font-size: 2.6em;
+		font-weight: bold;
+		margin-bottom: 0.8em;
+	}
+	.visionSubTitle {
+		
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+		background-size: contain;
+		height: 400px;
+		background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#defaultWaveform {
+		margin: 0 auto;
+	}
+	.defaultTitleBox01{
+	    margin-bottom: 3em;
+	}
+	.defaultTitleBox01>p {
+		font-size: 2em;
+		text-align: center;
+		font-weight: bold;
+	}
+	.defaultTitleBox02>p {
+        width: 700px;
+	    text-align: left;
+	    margin-bottom: 0.3em;
+	    margin: 0 auto;
+	}
+	.defaultTitleBox03 {
+		margin-top: 4em;
+	}
+	.defaultTitleBox03Li {
+		margin-bottom: 1em;
+		text-align: left;
+		height: 80px;
+	}
+	.defaultTitleBox03Title {
+		font-size: 1.2em;
+		font-weight: 600;
+		/* 	    margin: 0; */
+		margin-bottom: 0.3em;
+	}
+	.defaultTitleBox03subTitle {
+		display: flex;
+		margin: 0;
+	}
+	#subTitleImg{
+	    height: 30px;
+	}
+	.subTitleImg {
+		padding:0;
+	}
+	.defaultSignUpBtn {
+		color: fff;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		display: flex;
+	    padding: 0;
+	    justify-content: flex-start;
+	    margin-top: 0.5em;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+	    width: 269px;
+	    height: 150px;	
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 2em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 13px;
+	}
+	.defaultTitleBox02{
+		padding: 0;
+	}
+	.subTitleImgLi{
+        display: inline-block;
+	    width: 160px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+}
+/* 데스크탑 (가로 해상도가 992px보다 크고 1199px 보다 작은 화면에 적용) */
+@media ( min-width : 992px) and (max-width: 1199px) {
+	.logoGifBox {
+		
+	}
+	.logoGif {
+		height: 400px;
+		width: 900px;
+		margin: 0 auto;
+		background: url(../../image/logoMotion900.gif);
+		background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+		position: relative;
+	    height: 140px;
+	    bottom: -251px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 18px;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+		width: 900px;
+		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		/* 	    color: #aeaeae; */
+		margin-top: 65px;
+/* 		text-align: right; */
+	}
+	.visionMainTitle {
+		font-size: 2.6em;
+		font-weight: bold;
+		margin-bottom: 0.8em;
+	}
+	.visionSubTitle {
+		
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+		background-size: contain;
+		height: 400px;
+		background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#defaultWaveform {
+		margin: 0 auto;
+	}
+	.defaultTitleBox01>p {
+		font-size: 2em;
+		text-align: center;
+		margin-right: 0.3em;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+	.defaultTitleBox02>p {
+		text-align: left;
+		margin: 0;
+	}
+	.defaultTitleBox03 {
+		margin-top: 4em;
+	}
+	.defaultTitleBox03Li {
+		margin-bottom: 1em;
+		text-align: left;
+		height: 80px;
+	}
+	.defaultTitleBox03Title {
+		font-size: 1.2em;
+		font-weight: 600;
+		/* 	    margin: 0; */
+		margin-bottom: 0.3em;
+	}
+	.defaultTitleBox03subTitle {
+		display: flex;
+		margin: 0;
+	}
+	#subTitleImg{
+	    height: 30px;
+	}
+	.subTitleImg {
+		padding:0;
+	}
+	.defaultSignUpBtn {
+		color: fff;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		display: flex;
+	    justify-content: flex-end;
+	    margin-top: 0.5em;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+	    width: 269px;
+	    height: 150px;	
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 2em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 13px;
+	}
+	.defaultTitleBox02{
+		padding: 0;
+	}
+	.subTitleImgLi{
+	    display: inline-block;
+	    width: 140px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+}
+/* // 큰화면 데스크탑 (가로 해상도가 1200px 보다 큰 화면에 적용) */
+@media ( min-width : 1200px) {
+	.logoGifBox {
+		
+	}
+	.logoGif {
+		height: 400px;
+		width: 900px;
+		margin: 0 auto;
+		background: url(../../image/logoMotion900.gif);
+		background-size: 100% 100%;
+	}
+	.defaultLogoImg {
+		position: relative;
+	    height: 140px;
+	    bottom: -251px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: flex-end;
+	    cursor: default;
+	}
+	.defaultPageTitleBox {
+		text-align: center;
+		/*     	margin-bottom: 1em; */
+	}
+	.defaultWaveformBox {
+		margin-top: 2em;
+		margin-bottom: 1.3em;
+	}
+	.defaultPageTitle {
+		color: #aeaeae;
+		font-size: 18px;
+		margin-bottom: 0.1em;
+	}
+	.mainBox {
+		background-color: black;
+		font-family: 'Montserrat', sans-serif;
+	}
+	section {
+		display: flex !important;
+	}
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		color: #222;
+		/*대문자 */
+		/*text-transform: uppercase;  */
+		font-size: 2.8em;
+	}
+	.defaultPageBox {
+		width: 900px;
+		margin: 0 auto;
+	}
+	.full {
+		height: 500px;
+		margin-top: 1em;
+		/* 		background: #151515; */
+		/*     background-image: linear-gradient(0deg, #151515, #26282b ); */
+	}
+	.half {
+		padding: 50px 0;
+		background: #ffffff;
+		color: #000000;
+		box-shadow: inset 1px 2px 18px 2px rgba(0, 0, 0, 0.41);
+	}
+	#defaultWaveform {
+		padding: 0;
+	}
+	.visionTitleBox {
+		/* 	    color: #aeaeae; */
+		margin-top: 65px;
+/* 		text-align: right; */
+	}
+	.visionMainTitle {
+		font-size: 2.6em;
+		font-weight: bold;
+		margin-bottom: 0.8em;
+	}
+	.visionSubTitle {
+		
+	}
+	.visionTitleImg {
+		background: url(../../image/defaultPage/vision.png) no-repeat;
+		background-size: contain;
+		height: 400px;
+		background-position: center;
+	}
+	.defaultPlayBtn {
+		margin: 1em auto;
+		border: 0;
+		color: #fff;
+		outline: unset;
+		background: url(../../image/button/MusicPlayType.png);
+		background-size: cover;
+		width: 50px;
+		height: 50px;
+		border-radius: 45px;
+		font-size: 1.3em;
+		box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	}
+	.defaultWaveformBtnBox {
+		padding: 0 !important;
+	}
+	#defaultWaveform {
+		margin: 0 auto;
+	}
+	.defaultTitleBox01>p {
+		font-size: 2em;
+		text-align: center;
+		margin-right: 0.3em;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+	.defaultTitleBox02>p {
+	    text-align: left;
+	    margin: 0;
+	    font-size: 1em;
+	    margin-bottom: 0.5em;
+	    word-spacing: 3.5px;
+	}
+	.defaultTitleBox03 {
+		margin-top: 4em;
+	}
+	.defaultTitleBox03Li {
+		margin-bottom: 1em;
+	    text-align: left;
+	    height: 115px;
+	}
+	.defaultTitleBox03Title {
+		font-size: 1.2em;
+		font-weight: 600;
+		/* 	    margin: 0; */
+		margin-bottom: 0.3em;
+	}
+	.defaultTitleBox03subTitle {
+		display: flex;
+		margin: 0;
+	}
+
+	#subTitleImg{
+	    height: 30px;
+	}
+	.subTitleImg {
+	}
+	.defaultSignUpBtn {
+		color: fff;
+		cursor: pointer;
+		width: 150px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 1px 10px 13px #000000, -6px -3px 17px #333131;
+	}
+	.defaultSignUpBtnBox{
+		display: flex;
+	    justify-content: flex-start;
+	    margin-top: 1.5em;
+	    padding: 0;
+	}
+	.defaultLogo{
+		background: url(../../image/AISM.png);
+	    background-size: cover;
+	    width: 269px;
+	    height: 150px;	
+	}
+	.defaultLogoVersion{
+	    color: #f5f6f7;
+	    font-size: 2em;
+	    display: flex;
+	    align-items: flex-end;
+	    padding-bottom: 13px;
+	}
+	.defaultTitleBox02{
+	padding: 0;
+	}
+	.subTitleImgLi{
+	    display: inline-block;
+	    width: 160px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+}
+.main-container{
+	height:100vh;
+/* 	background: url(../../image/defaultPage/mainPage_background.png) 0% 0% / cover; */
+	background: url(../../image/defaultPage/mainPage_background_light.jpg) 0% 0% / cover;
+}
+.main-content-imgBox{
+	height: 90%;
+    background: url(../../image/defaultPage/mainPage_Wave.png) 0% 40% / cover;
+    position: relative;
+}
+.main-content-title{
+	
+}
+.main-content-title>p {
+    font-size: 41px;
+    word-spacing: 0px;
+    font-weight: bold;
+}
+.main-content-btnBox{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-content-btnBox>.main-content-btn{
+	width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: 5px solid #11276d;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    background: rgb(0 0 0/0.3);
+    cursor: pointer;
+}
+.main-content-titleBox{
+	position: absolute;
+    top: 52%;
+    width: 450px;
+    right: 380px;
+}

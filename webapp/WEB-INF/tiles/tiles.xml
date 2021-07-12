@@ -1,0 +1,46 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- <!DOCTYPE tiles-definitions PUBLIC -->
+<!--   "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" -->
+<!--   "http://tiles.apache.org/dtds/tiles-config_2_1.dtd"> -->
+
+<!-- <tiles-definitions> -->
+	<!-- tiles 적용 -->
+<!-- 	<definition name="tilesLayout" template="/WEB-INF/component/markect/markect.jsp"> -->
+<!-- 		<put-attribute name="siteTop" value="/WEB-INF/component/top.jsp" /> -->
+<!-- 		<put-attribute name="content" value="" /> -->
+<!-- 		<put-attribute name="siteBottom" value="/WEB-INF/component/footer.jsp" /> -->
+<!-- 	</definition> -->
+ 
+<!--  	<definition name="*.tiles" extends="tilesLayout"> -->
+<!-- 		<put-attribute name="content" value="/WEB-INF/{1}.jsp" /> -->
+<!-- 	</definition> -->
+ 
+<!-- 	<definition name="*/*.tiles" extends="tilesLayout"> -->
+<!-- 		<put-attribute name="content" value="/WEB-INF/{1}/{2}.jsp" /> -->
+<!-- 	</definition> -->
+	
+<!-- 	<definition name="*/*/*.tiles" extends="tilesLayout"> -->
+<!-- 		<put-attribute name="content" value="/WEB-INF/{1}/{2}/{3}.jsp" /> -->
+<!-- 	</definition> -->
+	
+<!-- 	<definition name="*/*/*/*.tiles" extends="tilesLayout"> -->
+<!-- 		<put-attribute name="content" value="/WEB-INF/{1}/{2}/{3}/{4}.jsp" /> -->
+<!-- 	</definition> -->
+		
+	<!-- 타일즈 미 적용 -->
+<!-- 	<definition name="normalLayout" template="/WEB-INF/jsp/layout/NormalLayout.jsp"> -->
+<!-- 		<put-attribute name="NormalLayout" value="" /> -->
+<!-- 	</definition> -->
+	
+<!-- 	<definition name="*.jsp" extends="normalForm"> -->
+<!-- 		<put-attribute name="NormalLayout" value="/WEB-INF/jsp/{1}.jsp" /> -->
+<!-- 	</definition> -->
+		
+<!-- 	<definition name="*/*.jsp" extends="normalForm"> -->
+<!-- 		<put-attribute name="NormalLayout" value="/WEB-INF/jsp/{1}/{2}.jsp" /> -->
+<!-- 	</definition> -->
+<!-- 	<definition name="*/*/*.jsp" extends="normalForm"> -->
+<!-- 		<put-attribute name="NormalLayout" value="/WEB-INF/jsp/{1}/{2}/{3}.jsp" /> -->
+<!-- 	</definition> -->
+	
+<!-- </tiles-definitions> -->

@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+.company-container {
+	display: flex;
+	width: 1100px;
+	margin: 10px auto;
+}
+
+ul.company-titleBox {
+	padding: 0;
+	margin: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	background-color: #1d1f21;
+	list-style: none;
+}
+
+li.company-title {
+	width: 160px;
+	margin: 3px;
+	margin-right: 0;
+	padding: 5px;
+	text-align: center;
+	padding-bottom: 0;
+	padding-left: 11px;
+	display: flex;
+	cursor: pointer;
+	border-bottom: 1px solid #5c6064;
+	height: 39px;
+	align-items: center;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+.company-content {
+	width: 100%;
+}
+
+.company-contentTitle {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.whoAISM_container {
+	padding-bottom: 5px;
+	/*     height: 50vh; */
+	/* 	height: 80vh; */
+	/*     position: relative; */
+	background: linear-gradient(0turn, #000000, #ffffff00 60%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mainTop{
+    background: #000 !important;
+}
+.whoAISM_container:after {
+	background: url(../../image/company/company_background01.jpg) 0% 0%/cover;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0.3 !important;
+	z-index: -1;
+	content: "";
+	width: 100%;
+	height: 80%;
+}
+
+.whoAISM {
+	padding: 10px;
+	width: 800px;
+	border-radius: 5px;
+	border: 1px solid #616161;
+	background-color: #0f0f0fd6;
+}
+
+.company_titleContainer {
+	width: 800px;
+	position: sticky;
+	top: 0;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+}
+
+.company_title {
+	border: 3px solid #c6c6c6;
+	padding: 10px;
+	background-color: #00000052;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.cooperation_container {
+	background: linear-gradient(0turn, #000000, #131313, #000000);
+	height: 30vh;
+	/*     display: flex; */
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.cooperation_companyList {
+	width: 800px;
+}
+
+.cooperation_company {
+	width: 150px;
+	margin: 1px;
+	vertical-align: unset;
+}
+
+.cooperation_companyBox {
+	padding: 3px;
+	width: 800px;
+}
+
+.contact_container {
+	display: none;
+	height: 50vh;
+	/*     display: flex; */
+	align-items: center;
+	justify-content: center;
+}
+
+.contact_form {
+	width: 800px;
+	background-color: #494949;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.contact_form_inputBox {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+input.contact_inputBox {
+	padding: 5px;
+	padding-left: 30px;
+	width: 48%;
+	height: 40px;
+	background-color: #000;
+	border: 0;
+}
+
+.contact_textArea {
+	width: 100%;
+	background-color: #000;
+	height: 130px;
+	border: 0;
+	padding: 5px;
+	padding-left: 30px;
+	border-radius: 5px;
+}
+
+.mainTop {
+	position: sticky;
+	top: 3px;
+	z-index: 11;
+}
+
+.history_container {
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.history_box {
+	width: 800px;
+}
+
+.history_list {
+	margin-bottom: 50px;
+}
+
+/* project */
+.project_container {
+	width: 1600px;
+	background: #2f2f2f;
+	margin: 100px auto;
+/* 	padding: 10px 0; */
+}
+
+.column_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px 0;
+}
+
+.column_item {
+	width: 220px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #ffffff26;
+	justify-content: center;
+}
+
+.track_number_title {
+	width: 70px;
+}
+
+.track_number {
+	width: 70px;
+}
+
+.project_title {
+	width: 375px;
+}
+
+.project {
+	width: 375px;
+	justify-content: flex-start;
+}
+
+.date_title {
+	width: 75px;
+}
+
+.date {
+	width: 75px;
+}
+
+.song_title_title {
+	width: 400px;
+}
+
+.song_title {
+	width: 400px;
+	justify-content: flex-start;
+}
+
+.origin_song_title {
+	width: 150px;
+}
+
+.origin_song {
+	width: 150px;
+}
+
+.create_ai_song_title {
+	width: 150px;
+}
+
+.create_ai_song {
+	width: 150px;
+}
+
+.column_content:hover {
+	background: #3e84ad;
+}
+.upgrade_version{
+	background: #28267b7d !important;
+}
+.upgrade_version:hover {
+	background: #100e31 !important;
+}

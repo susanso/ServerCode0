@@ -1,0 +1,794 @@
+@charset "UTF-8";
+/* top css 간섭 */
+.mainTop{
+/* 	border-bottom: 1px solid #fff; */
+}
+.contentContainer{
+    margin: 0 auto;
+    width: 1200px;
+    overflow-y: overlay;
+}
+.marketMainContainer {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.marketMainContainer::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.navUl{
+    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+    background-color: #1d1f21;
+    overflow-y: overlay;
+}
+.navUl,.contentContainer {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.navUl::-webkit-scrollbar,.contentContainer::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.navList{
+	width: 150px;
+	text-align: center;
+    padding-bottom: 0;
+    padding-left: 11px;
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid #5c6064;
+    height: 39px;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.navListActive{
+	background-color: #374556;
+}
+
+/* .navContent { */
+/*     background-color: #000000; */
+/*     width: 1200px; */
+    /* background: linear-gradient(0turn, #000, #01043b,#000000); */
+/* } */
+
+.myList {
+    width: 100%;
+    height: 100%;
+}
+.sellCardContainer {
+    width: 150px;
+    display: inline-block;
+    /* height: 275px; */
+    /* padding: 10px; */
+    margin-right: 22px;
+    /* background-color: #585858; */
+/*     margin: 12px; */
+}
+.albumImg {
+    width: 150px;
+    height: 150px;
+/*     margin: 0 auto; */
+}
+.defaultInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sellerInfo {
+    width: 100px;
+    /* background-color: steelblue; */
+}
+.buyListInfo{
+    margin-top: 12px;
+}
+.songTitle {
+    /* text-align: center; */
+    font-size: 14px;
+    font-weight: 600;
+}
+.sellerName {
+    font-size: 14px;
+    color: #787878;
+    font-weight: bolder;
+}
+.downInfo {
+    width: 120px;
+}
+.buyBox{
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+}
+.downCount {
+    font-size: 14px;
+    text-align: right;
+    color: #787878;
+}
+.sellerPrice {
+    font-size: 14px;
+/*     background-color: #dfff00; */
+    background-color: #5ba01c;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.reSetting {
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hotList,shoppingBasketList,.allList,.buyList{
+	display: none;
+}
+.downBox {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.midi {
+    background: url(../../image/myPage/downMidi.png) 0% 0% / cover;
+}
+.mp3 {
+    background: url(../../image/myPage/downMp3.png) 0% 0% / cover;
+}
+.pdf {
+    background: url(../../image/myPage/downScore.png) 0% 0% / cover;
+}
+.allListNav {
+    display: inline-table;
+    align-items: center;
+}
+.row_Title {
+    width: 99.5px;
+    background-color: #162934;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 1px solid #000;
+}
+.row_TitleAcvite{
+	background-color: #21639b;
+}
+.row_TitleHover{
+	background-color: #21639b;
+}
+.selectOptionContent{
+	display: inline-table;
+}
+/* 여기서 변경하지 */
+.contentMusicBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151515;
+/*     padding: 5px; */
+    border-radius: 3px;
+    margin-bottom: 2px;
+    padding-right: 17px;
+}
+.contentMusicInfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.contentMusicImg {
+/* 	background: url(../../image/album_cover/idea.jpg) 0% 0% / cover; */
+    width: 70px;
+    border-radius: 3px;
+    height: 70px;
+    margin: 5px;
+}
+.contentMusicTextBox{
+	
+}
+.contentMusicTitle {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.contentMusicUser {
+    font-weight: 900;
+    color: #c5c5c0;
+}
+.contentMusicLikeBox {
+    display: flex;
+}
+.contentMusicLikeBox>div {
+    margin-right: 15px;
+    color: #c5c5c0;
+}
+.contentMusicPrice {
+    margin: 10px;
+/*     background-color: #f9ff00; */
+	background-color: #5ba01c;
+    width: 76px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* swiper */
+.swiper-container {
+	width: 1200px;
+	height: 150px;
+/* 	margin: 30px auto; */
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  color: #000;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.bannerBtn{
+	border: 0;
+    background-color: rgb(0 ,0 ,0,0);
+    color: #4d5af7;
+    outline: none;
+}
+.fireContainer {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    justify-content: space-between;
+}
+.showListBox {
+    height: 100%;
+}
+.newListContainer {
+    width: 670px;
+    margin-right: 35px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.genreListContainer {
+    width: 670px;
+    margin-right: 35px;
+    height: auto;
+    background: linear-gradient(0.98turn, #1e1e1e, #000000);;
+    border-radius: 0 3px 0 0;
+}
+.famousListContainer {
+    width: 100%;
+    height: 100%;
+}
+.titleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ContainerTitle {
+    font-size: 17px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.arrowBox {
+    width: 65px;
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrowBtn {
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+.arrowPrev {
+    background: url(../../image/market/test/left-arrow.png) 0% 0% / cover;
+}
+.arrowNext {
+    background: url(../../image/market/test/right-arrow.png) 0% 0% / cover;
+}
+.cardListContent {
+    display: flex;
+    overflow: overlay;
+    height: 215px;
+}
+.famousListContent {
+    height: 420px;
+    overflow-y: overlay;
+}
+.cardListContent::-webkit-scrollbar {
+	height: 10px;
+}
+.cardListContent::-webkit-scrollbar-track {
+	background-color: #112b40;
+	border-radius: 10px;
+}
+.cardListContent::-webkit-scrollbar-thumb {
+    background-color: #36709d;
+    border-radius: 10px;
+   	transition: all 0.3s;
+}
+.cardListContent::-webkit-scrollbar-thumb:hover {
+	background-color: #5daae5;
+}
+.cardListContent::-webkit-scrollbar-thumb:active {
+	background-color: #005697;
+}
+.cardListContent::-webkit-scrollbar-button {
+	display: none;
+}
+
+
+.famousListContent::-webkit-scrollbar {
+	width: 7px;
+}
+.famousListContent::-webkit-scrollbar-track {
+	background-color: #112b40;
+}
+.famousListContent::-webkit-scrollbar-thumb {
+    background-color: #36709d;
+    border-radius: 10px;
+   	transition: all 0.3s;
+}
+.famousListContent::-webkit-scrollbar-thumb:hover {
+	background-color: #5daae5;
+}
+.famousListContent::-webkit-scrollbar-thumb:active {
+	background-color: #005697;
+}
+.famousListContent::-webkit-scrollbar-button {
+	display: none;
+}
+
+
+.keywordContent::-webkit-scrollbar {
+	width: 7px;
+}
+.keywordContent::-webkit-scrollbar-track {
+	background-color: #112b40;
+}
+.keywordContent::-webkit-scrollbar-thumb {
+    background-color: #36709d;
+    border-radius: 10px;
+   	transition: all 0.3s;
+}
+.keywordContent::-webkit-scrollbar-thumb:hover {
+	background-color: #5daae5;
+}
+.keywordContent::-webkit-scrollbar-thumb:active {
+	background-color: #005697;
+}
+.keywordContent::-webkit-scrollbar-button {
+	display: none;
+}
+
+.emptyArea {
+    height: 20px;
+    background: linear-gradient(-0.9turn,#121212,#1e1e1e);
+    width: 670px;
+    position: relative;
+    top: -40px;
+}
+.searchContainer {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.keywordContainer {
+    width: 670px;
+    height: 150px;
+    background: linear-gradient(-1.6turn,#121212,#212121);
+    border-radius: 0 0 3px 0;
+    position: absolute;
+    top: -40px;
+}
+.subADContainer {
+    width: 495px;
+    height: 110px;
+    background: #212121;
+    border-radius: 3px;
+    z-index: 0;
+    display: grid;
+    position: absolute;
+    right: 0;
+    /* background: url(../../image/market/test/album_sell.png) 0% 70% / cover;*/
+}
+
+.subADContainer:after {
+    background: url(../../image/market/test/album_sell.png) 0% 70% / cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.3!important;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.genreListTitle{
+	margin: 5px;
+    width: 98px;
+    background-color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 1px solid #202020;
+}
+.subADContainerTitle {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+.sellMyMusicBtn {
+    margin: auto;
+    background: rgb(0 0 0 / 50%);
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.keywordListTitle {
+    margin: 3px;
+    width: 98px;
+    background-color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: all 0.3s;
+    margin-bottom: 0;
+    margin-top: 7px;
+    border: 1px solid #202020;
+}
+.keywordContent {
+    overflow: auto;
+    height: 110px;
+}
+.searchInfoBox {
+    display: flex;
+    align-items: center;
+}
+.searchBarInputBox {
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+}
+.searchImg {
+    height: 30px;
+    position: absolute;
+    top: 0;
+    background: url(../../image/market/test/search.png) 0% 0% / cover;
+    left: 0;
+    width: 30px;
+    border-radius: 8px 0 0 8px;
+}
+.searchBar {
+    padding-left: 36px;
+    border: 0;
+    color: #000;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.row_keywordTitle{
+    width: 99.5px;
+    background-color: #341616;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 1px solid #000;
+}
+.selectOptionContainer{
+	position: sticky;
+    top: 0;
+    padding-bottom: 15px;
+    background-color: #000;
+}
+.selectOptionLi{
+	padding:3px;
+/* 	margin: 3px; */
+    width: 98px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 1px solid #000;
+}
+.selected_genre{
+	background-color: #162934;
+}
+.selected_keyword{
+	background-color: #341616;
+}
+.cancelSelectBtn {
+    height: 27px;
+    background: url(../../image/market/test/close.png) 0% 0% / cover;
+    right: 0;
+    width: 27px;
+}
+.allListContent{
+}
+.marketMainContainer {
+    position: relative;
+    overflow-y: overlay;
+    width: 1350px;
+    display: flex;
+    height: 95vh;
+    margin: 0 auto;
+}
+.best_in_AISM {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.best_in_AISM_list {
+    width: 580px;
+}
+.banner_AISM_service {
+    width: 100%;
+    background: #212121;
+    border-radius: 3px;
+    z-index: 0;
+    height: 150px;
+    display: grid;
+    position: relative;
+    margin: 30px 0px;
+}
+.banner_AISM_service>.AISM_ADContainerTitle{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 8px;
+    justify-content: center;
+}
+.banner_AISM_service:after {
+    background: url(../../image/market/test/marketComposeImg.jpg) 0% 35% / cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.3!important;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.navSubList{
+	width: 150px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 20px;
+    display: flex;
+    cursor: pointer;
+    border-top: 1px solid #5c6064;
+    height: 39px;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.navdetailList{
+	justify-content: space-between;
+	width: 150px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 15px;
+    display: flex;
+    cursor: pointer;
+/*     border-bottom: 1px solid #5c6064; */
+    height: 39px;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.searchKeywordTitle{
+    position: sticky;
+    background: #1d1f21;
+    padding: 5px;
+    display: block;
+    height: auto;
+    top: 0;
+    z-index: 1;
+}
+.searchTag {
+    border: 0;
+    height: 35px;
+    outline: none;
+    width: 100%;
+    padding-left: 35px;
+    background-color: #1d1f21;
+    border-bottom: 1px solid #ddd;
+}
+.searchTagBox>.searchResultTitle {
+    text-align: left;
+    margin: 5px;
+    font-weight: 300;
+    color: #797676;
+}
+.searchResult_keyword {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    /* margin-bottom: 5px; */
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid hsla(0,0%,100%,.16);
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.add_btn {
+   width: 15px;
+    align-items: center;
+    display: flex;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.searchResultBox {
+    padding: 2px;
+    display: block;
+    min-height: 40px;
+    max-height: 280px;
+    text-align: left;
+    background-color: #131313;
+    border: 1px solid #ffffff82;
+    border-radius: 5px;
+}
+
+
+.result_keyword {
+    letter-spacing: 0.2px;
+    max-width: 105px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.search_word {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    background: url(../../image/market/test/search.png) 0% 0% / cover;
+    left: 0;
+    width: 35px;
+    border-radius: 8px 0 0 8px;
+    z-index: 1000;
+}
+.allListPage,.playListPage {
+    justify-content: space-between;
+}
+.searchTagBox {
+    position: relative;
+}
+.nav_title_arrowBtn {
+    width: 13px;
+    margin: 13px;
+    height: 13px;
+    background: url(../../image/myAlbum/slideDown.png) 0% 0%/cover;
+}
+.navSubList>span {
+    margin: 5px;
+}
+.arrowBtn_slideUp {
+    transition: transform .25s ease-in;
+    transform: rotate(180deg);
+}
+.allListPage_option,.playListPage_option {
+	border-bottom: 1px solid #5c6064;
+    display: none;
+}
+.selectOptionTitle_box{
+	justify-content: space-between;
+}
+.navSubGenreContent,.navSubKeywordContent{
+	display: none;
+}
+.viewMore {
+    font-weight: normal;
+    font-size: 13px;
+}
+/* toggle  start*/
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+.selectGenreToggle {
+	margin: 0 10px;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+.selectGenreToggle:after {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+input:checked + .selectGenreToggle {
+	background: #bada55;
+}
+input:checked + .selectGenreToggle:after {
+	left: calc(100%);
+	transform: translateX(-100%);
+}
+.selectGenreToggle:active:after {
+	width: 25px;
+}
+/* toggle  end*/
+.playList_default_img {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.playList_default_box {
+    width: 160px;
+    padding: 5px;
+    margin-right: 10px;
+    background: linear-gradient(0turn, #4545453d, #000000);
+    margin-bottom: 10px;
+}
+.playList_default_title {
+    font-size: 16px;
+    font-weight: bolder;
+}

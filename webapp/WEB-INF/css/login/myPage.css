@@ -1,0 +1,2002 @@
+@charset "UTF-8";
+
+/* 모바일 */
+@media ( max-width : 375px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+	    font-size: 0.9em;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+		
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0;
+	    line-height: 2em;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.phoneInputBox_before{
+	    padding: 0;
+    	text-align: center;
+	}
+	.phoneInputBox_after{
+	    padding: 0;
+    	text-align: center;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+	    text-align: center;
+	    padding: 0;
+	    line-height: 2em;
+	}
+	.myPageCulumnRow {
+	    align-items: center;
+	    margin-bottom: 1em;
+	    padding: 0;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+		padding-left: 0.3em;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+		background-color: #505051;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 140px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 140px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		text-align: right;
+	    height: 0.8em;
+	    padding: 0;
+	    font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 3em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+	.myPageEmailTitle{
+		margin-bottom: 1em;
+	}
+	.email_start {
+		margin-bottom: 1em;
+	}
+	.email_end {
+		margin-bottom: 1em;
+	}
+	.email_result{
+	    margin-bottom: 1em;
+	}
+}
+/* 웹최소 */
+@media ( min-width : 376px) and (max-width: 575px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+	    font-size: 0.9em;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+		
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0;
+	    line-height: 2em;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.phoneInputBox_before{
+	    padding: 0;
+    	text-align: center;
+	}
+	.phoneInputBox_after{
+	    padding: 0;
+    	text-align: center;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+	    text-align: center;
+	    padding: 0;
+	    line-height: 2em;
+	}
+	.myPageCulumnRow {
+	    align-items: center;
+	    margin-bottom: 1em;
+	    padding: 0;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+		padding-left: 0.3em;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+		background-color: #505051;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 140px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 140px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		text-align: right;
+	    height: 0.8em;
+	    padding: 0;
+	    font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 3em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+	.myPageEmailTitle{
+		margin-bottom: 1em;
+	}
+	.email_start {
+		margin-bottom: 1em;
+	}
+	.email_end {
+		margin-bottom: 1em;
+	}
+	.email_result{
+	    margin-bottom: 1em;
+	}
+}
+/* 가로모드 모바일 디바이스 (가로 해상도가 576px보다 크고 768px 보다 작은 화면에 적용) */
+@media ( min-width : 576px) and (max-width: 767px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+	    font-size: 0.9em;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0;
+	    line-height: 2em;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.phoneInputBox_before{
+	    padding: 0;
+    	text-align: center;
+	}
+	.phoneInputBox_after{
+	    padding: 0;
+    	text-align: center;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+	    text-align: center;
+	    padding: 0;
+	    line-height: 2em;
+	}
+	.myPageCulumnRow {
+	    align-items: center;
+	    margin-bottom: 1em;
+	    padding: 0;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+		padding-left: 0.3em;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+		background-color: #505051;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 140px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 140px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		text-align: right;
+	    height: 0.8em;
+	    padding: 0;
+	    font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 3em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+	.myPageEmailTitle{
+		margin-bottom: 1em;
+	}
+	.email_start {
+		margin-bottom: 1em;
+	}
+	.email_end {
+		margin-bottom: 1em;
+	}
+	.email_result{
+	    margin-bottom: 1em;
+	}
+}
+/*  태블릿 디바이스 (가로 해상도가 768px보다 크고 991px 보다 작은 화면에 적용) */
+@media ( min-width : 768px) and (max-width: 991px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+	    font-size: 0.9em;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+		
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0;
+	    line-height: 2em;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.phoneInputBox_before{
+	    padding: 0;
+    	text-align: center;
+	}
+	.phoneInputBox_after{
+	    padding: 0;
+    	text-align: center;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+	    text-align: center;
+	    padding: 0;
+	    line-height: 2em;
+	}
+	.myPageCulumnRow {
+	    align-items: center;
+	    margin-bottom: 1em;
+	    padding: 0;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+		padding-left: 0.3em;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+		background-color: #505051;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 140px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 140px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		text-align: right;
+	    height: 0.8em;
+	    padding: 0;
+	    font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 3em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+	.myPageEmailTitle{
+		margin-bottom: 1em;
+	}
+	.email_start {
+		margin-bottom: 1em;
+	}
+	.email_end {
+		margin-bottom: 1em;
+	}
+	.email_result{
+	    margin-bottom: 1em;
+	}
+}
+/*  데스크탑 (가로 해상도가 992px보다 크고 1199px 보다 작은 화면에 적용) */
+@media ( min-width : 992px) and (max-width: 1199px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		width: 900px;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		width: 1200px;
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+		display: none;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+		display: none;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+		
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		width: 800px;
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0 !important;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+		text-align: center !important;
+		padding: 0 !important;
+	}
+	.myPageCulumnRow {
+		align-items: center;
+		display: flex;
+		margin-bottom: 0.5em;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+		background-color: #505051;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+		width: 200px;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+		width: 200px;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 200px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 200px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		padding: 0 0 0 1em;
+		font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 1em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+}
+/*  큰화면 데스크탑 (가로 해상도가 1200px 보다 큰 화면에 적용) */
+@media ( min-width : 1200px) {
+	div {
+		padding: 0;
+	}
+	.myPageTitleBox {
+		display: flex;
+		width: 900px;
+		justify-content: space-evenly;
+		margin: 15px auto;
+	}
+	.myPageTitle {
+		cursor: pointer;
+		box-sizing: border-box;
+		border-style: solid;
+		border-image: linear-gradient(to right, #e7a1c0 0%, #0894c1 100%);
+		border-image-slice: 1;
+		border-image-width: 0 0 0 0;
+		transition: all 0.5s;
+	}
+	.myPageTitle:hover {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageTitleActive {
+		border-image-width: 0 0 4px 0;
+	}
+	.myPageShowBox {
+		width: 1200px;
+		margin: 15px auto;
+	}
+	.changeMyInfoBox {
+		
+	}
+	.paymentHistoryBox {
+		display: none;
+	}
+	.workListBox {
+		display: none;
+	}
+	.QnAListBox {
+		display: none;
+	}
+	.workLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+		display: none;
+	}
+	.exlistImg {
+		max-width: 130px;
+		min-width: 50px;
+		text-align: center;
+	}
+	.workLiColumn {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+		display: none;
+	}
+	.listColumn {
+		max-width: 130px;
+		min-width: 115px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.listColumnEmpty {
+		max-width: 130px;
+		min-width: 60px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.harfLine {
+		/*     background-color: #fff; */
+		/*     width: 1px; */
+		/*     height: 15px; */
+		
+	}
+	.paymentHistoryTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.paymentHistoryLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.paymentHistoryColumn {
+		max-width: 170px;
+		min-width: 160px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListTitle {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		align-items: center;
+	}
+	.QnAListColumn {
+		max-width: 300px;
+		min-width: 285px;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.QnAListLi {
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		background-color: #26282b;
+		align-items: center;
+		border-bottom: 1px solid #fff;
+	}
+	.myPageProfileBox {
+		width: 800px;
+		margin: 1em auto;
+	}
+	.myPageProfileTitle {
+		text-align: left;
+		padding: 0 !important;
+	}
+	.myPageInputForm {
+		background-color: #505051;
+		color: #fff;
+		border: 0;
+		outline: none;
+		width: 100%;
+		height: 35px;
+		padding-left: 1em;
+	}
+	.myPageUpId {
+		cursor: default;
+	}
+	.phoneSelectBox {
+		padding: 0.2em;
+	}
+	.myPageInputBox {
+		text-align: center !important;
+		padding: 0 !important;
+	}
+	.myPageCulumnRow {
+		align-items: center;
+		display: flex;
+		margin-bottom: 0.5em;
+	}
+	.findAddr {
+		/* 		background-color: #74aadb; */
+		/* 		background-color: #26282b; */
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.findAddr:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.selectEmail {
+		border-left: 1px solid #26282b;
+	}
+	.selectJob {
+		border-left: 1px solid #26282b;
+	}
+	.submitEmail {
+		background: linear-gradient(0.25turn, rgb(168, 136, 161), rgb(52, 112, 157));
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.email_resultBtn {
+	    background: linear-gradient(0.25turn, #a888a1, #34709d);
+	    display: flex;
+	    height: 35px;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    cursor: pointer;
+	}
+	.returnInsertEmail {
+		background-color: #db7474;
+		display: flex;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.createSubmitEmail {
+		cursor: default;
+	    background-color: #505051;
+	    height: 35px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin-left: 0.2em;
+	    color: #7d7d7d;
+	}
+	.cancelEmailBox {
+		display: flex;
+		background-color: #db7474;
+		height: 35px;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0.2em;
+		cursor: pointer;
+	}
+	.changeProfile {
+		margin: 1em auto;
+		background-color: #74aadb;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+		width: 200px;
+	}
+	.backHome {
+		margin: 1em auto;
+		background-color: #db7474;
+		text-align: center;
+		height: 45px;
+		font-size: 20px;
+		cursor: pointer;
+		line-height: 44px;
+		margin-top: 1em;
+		width: 200px;
+	}
+	.myPageProfile {
+		background-image: url(../../image/profile/default_profile.png);
+		height: 200px;
+		background-size: 100% 100%;
+		margin: 1em auto;
+		width: 200px;
+		border-radius: 100%;
+		border: 1px solid;
+	}
+	.changeProfileFinder {
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.emailResultBox {
+		display: none;
+	}
+	.postNumber {
+		cursor: default;
+	}
+	.addrCode {
+		cursor: default;
+	}
+	.alertBox {
+		padding: 0 0 0 1em;
+		font-size: 0.8em;
+	}
+	.changeProfileFinderLabel {
+		margin: auto;
+		margin-bottom: 1em;
+		display: flex;
+		text-align: center;
+		width: 200px;
+		height: 30px;
+		background-color: #505051;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		-webkit-transition: background-color 0.2s;
+		transition: background-color 0.2s;
+	}
+	.changeProfileFinderLabel:hover {
+		background: linear-gradient(0.25turn, #a888a1, #34709d);
+	}
+	.changeProfileFinder {
+		display: none;
+	}
+	
+}
+/* 20201231 2020마지막날..코딩을 하고 있습니다.. */
+.CardStoreSetBox {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.CardStoreSet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 26px;
+    border-radius: 3px;
+    background-color: #7a4293;
+    cursor: pointer;
+}
+.workCardBox {
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px #131313;
+    margin: 10px;
+    padding-bottom: 0;
+
+ }.composeKeyword{
+	background-color: rgb(26,39,69,0.13);
+}
+.composeReference{
+	background-color: rgb(69,26,44,0.13);
+}
+.CardtitleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CardtitleBox>.title {
+    font-size: 15px;
+    font-weight: 700;
+}
+.CardtitleBox>.optionBox>.date {
+    color: #747576;
+    z-index: 10;
+    font-weight: 700;
+}
+.ContentselectBox {
+    text-align: left;
+    margin-right: 12px;
+}
+.ContentselectBox>div{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 135px;
+}
+.albumCover {
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.albumCover1 {
+    background: url(../../image/album_cover/take.jpg) 0% 0% / cover;
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.albumCover2 {
+    background: url(../../image/album_cover/B-DAY.jpg) 0% 0% / cover;
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.albumCover3 {
+    background: url(../../image/album_cover/iffy.jpg) 0% 0% / cover;
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.albumCover4 {
+    background: url(../../image/album_cover/sharp.jpg) 0% 0% / cover;
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.albumCover5 {
+    background: url(../../image/album_cover/emoHiphop.jpg) 0% 0% / cover;
+    height: 100%;
+    width: 66px;
+    box-shadow: 0px 0px 32px #000000;
+}
+.CardContentBox {
+    margin-top: 10px;
+    display: flex;
+    height: 66px;
+    align-items: center;
+    justify-content: space-between;
+}
+.CardDownBox {
+    display: flex;
+    width: 130px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.CardDownBox>.downBox {
+	cursor:pointer;
+    background-color: red;
+    height: 41px;
+    width: 41px;
+}
+.CardDownBox>.pdf{
+	background: url(../../image/myPage/downScore.png) 0% 0% / cover;
+}
+.CardDownBox>.mp3{
+	background: url(../../image/myPage/downMp3.png) 0% 0% / cover;
+}
+.CardDownBox>.midi{
+	background: url(../../image/myPage/downMidi.png) 0% 0% / cover;
+}
+.optionBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+.optionBox>.not_sold{
+	background-color: #ccd900;
+    width: 50px;
+    text-align: center;
+    color: #000;
+    cursor: default;
+    border-radius: 5px;
+}
+.optionBox>.sale{
+	background-color: #5e9342;
+    width: 50px;
+    text-align: center;
+    cursor: default;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.deleteButton{
+	background: url(../../image/myPage/delete.png) 0% 0% / cover;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+}
+.deleteAlbumBtn {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 30px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.deleteMargin{
+	margin-bottom: 25px;
+}

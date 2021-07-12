@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.containerBox {
+    width: 1100px;
+    margin: 5em auto;
+}
+.songDetailBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background: linear-gradient(-0.0turn, #000000,#12233c, #000000);
+}
+.albumImg {
+    background: url(../../image/album_cover/idea.jpg) 0% 0% / cover;
+    width: 130px;
+    border-radius: 3px;
+    height: 130px;
+}
+.songDetailImfoBox {
+    margin-left: 20px;
+    width: 640px;
+}
+.songTitle {
+    font-size: 16px;
+    color: #c5c5c5;
+    font-weight: bolder;
+}
+.titleMusicContainer {
+    display: flex;
+    align-items: center;
+}
+.user {
+    font-size: 16px;
+    color: #c5c5c5;
+}
+.priceBox {
+    display: flex;
+}
+.priceBox>div {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+.price {
+    background-color: #f9ff00;
+    width: 76px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.comment {
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.albumDetailWaveBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 70px;
+}
+.albumDetailBtnBox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 15px;
+}
+.albumDetailPlay {
+    background: url(../../image/album_cover/samplePlay.png);
+    background-size: cover;
+}
+.albumDetailPause{
+	background: url(../../image/album_cover/samplePause.png);
+    background-size: cover;
+}
+#albumDetailWaveForm {
+   width: 100%;
+}
+.selectBox {
+	margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectBox>.selectBtn {
+	cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #adadad;
+    padding: 4px;
+}
+
+.selectBox>.selectBtnActive {
+    color: #fff;
+    border-bottom: 5px solid #b9b9b9;
+}
+
+
+.contentMusicBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px
+}
+.contentMusicInfo {
+    display: flex;
+    align-items: center;
+}
+.contentMusicImg {
+/* 	background: url(../../image/album_cover/idea.jpg) 0% 0% / cover; */
+    width: 70px;
+    border-radius: 3px;
+    height: 70px;
+    margin: 10px;
+}
+.contentMusicTextBox{
+	
+}
+.contentMusicTitle {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.contentMusicUser {
+    font-weight: 900;
+    color: #c5c5c0;
+}
+.contentMusicLikeBox {
+    display: flex;
+}
+.contentMusicLikeBox>div {
+    margin-right: 15px;
+    color: #c5c5c0;
+}
+.contentMusicPrice {
+    margin: 10px;
+    background-color: #f9ff00;
+    width: 76px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.commentBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 23px;
+    color: #7d7d7d;
+    display: none;
+}
+.composeModalBox {
+    width: auto !important;
+    min-width: 300px !important;
+    max-width: 640px !important;
+    height: auto !important;
+    padding: 10px;
+}
+.confirmMsgBox {
+    width: 100%;
+}
+.buyOptionBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.buyOptionLi {
+    background-color: #161616;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+.buyOptionLi:hover{
+	background-color: #1a4c76;
+}
+
+.buyOptionTitle {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 3px solid #bf63f8;
+    margin-bottom: 5px;
+}
+.buyOptionPrice {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.buyOptionDown {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.buyOptionCopyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.justoneBox {
+    display: flex;
+    background-color: #161616;
+    width: 615px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+.justoneBox:hover{
+	background-color: #1a4c76;
+}
+.justoneTitle {
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+}
+.justonePrice {
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    font-weight: bolder;
+}
+.confirmModalBtnBox {
+    width: auto !important;
+}
+.buyBtn {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.canBuyActive{
+	background-color: #1a4c76;
+}
+.successBuy {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,1004 @@
+@charset "UTF-8";
+
+a:link {
+	color: rgb(242, 242, 243);
+	text-decoration: none;
+}
+div{
+	padding: 0;
+}
+a:visited {
+	color: rgb(242, 242, 243);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(242, 242, 243);
+	text-decoration: none;
+}
+
+* {
+	font-size: 14px;
+	font-family: defaultFont;
+}
+
+@font-face {
+	font-family: defaultFont;
+	src: url("../../font/KoPubDotumMedium.ttf") format("truetype");
+}
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+@media ( max-width : 375px){
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+ 	    cursor: pointer;
+	    width: 83px;
+	    margin: 0.5rem
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+	    align-items: center;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 680px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+		width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-evenly;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+	.profileBox {
+		display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+		background-size: 100% 100%;
+		width: 2em;
+		height: 2em;
+		margin: auto;
+		margin-right: 0.4em;
+		border-radius: 100%;
+		cursor: pointer;
+	}
+	.profileId {
+		cursor: pointer;
+  		margin: 0;
+	}
+	.mainTopMenuLi {
+		margin: 0px 1em;
+   		text-align: center;
+	}
+	.mainTopMenuLi>a {
+		font-size: 1.6rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+        padding: 0.4em;
+	    text-decoration: none;
+	    font-size: 1.2em;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+        width: 150px;
+	    padding-left: 15%;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 0.15em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+	width: 45% !important;
+	}
+}
+
+@media ( min-width : 376px) and (max-width: 575px) {
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+ 	    cursor: pointer;
+	    width: 85px;
+	    margin: 0.5rem;
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.mainTopMenuLi {
+		margin: 0px 1em;
+   		text-align: center;
+	}
+	.mainTopMenuLi>a {
+		font-size: 1.6rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 830px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+		width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-evenly;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+	.profileBox {
+		display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+		background-size: 100% 100%;
+		width: 2em;
+		height: 2em;
+		margin: auto;
+		margin-right: 0.4em;
+		border-radius: 100%;
+		cursor: pointer;
+	}
+	.profileId {
+		cursor: pointer;
+  		margin: 0;
+	}
+	/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+	    background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+        padding: 0.4em;
+	    text-decoration: none;
+	    font-size: 1.2em;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	    padding-left: 15%;
+        width: 150px;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 0.15em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+	width: 43% !important;
+	}
+}
+
+/* 가로모드 모바일 디바이스 (가로 해상도가 576px보다 크고 768px 보다 작은 화면에 적용) */
+@media ( min-width : 576px) and (max-width: 767px) {
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+		cursor: pointer;
+		width: 85px;
+		margin: 1rem;
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.mainTopMenuLi {
+		text-align: center;
+		min-width: 14rem;
+	}
+	.mainTopMenuLi>a {
+		font-size: 2.1rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 780px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+		width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-evenly;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+
+	.profileBox {
+		display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+	    background-size: 100% 100%;
+	    width: 2.5em;
+	    height: 2.5em;
+	    margin-right: 0.4em;
+	    border-radius: 100%;
+	    cursor: pointer;
+	}
+	.profileId {
+		cursor: pointer;
+		margin: 0;
+	}
+	/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+	    padding: 0.6em;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		padding-left: 18%;
+		width: 170px;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 1.65em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+	width: 35% !important;
+	}
+}
+
+/*  태블릿 디바이스 (가로 해상도가 768px보다 크고 991px 보다 작은 화면에 적용) */
+@media ( min-width : 768px) and (max-width: 991px) {
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+		cursor: pointer;
+		width: 85px;width: 100px;
+		margin: 0 1rem;
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.mainTopMenuLi {
+		text-align: center;
+		min-width: 14rem;
+	}
+	.mainTopMenuLi>a {
+		font-size: 2.1rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 780px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+		width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-evenly;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+	.profileBox {
+		display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+	    background-size: 100% 100%;
+	    width: 2.5em;
+	    height: 2.5em;
+	    margin-right: 0.4em;
+	    border-radius: 100%;
+	    cursor: pointer;
+	}
+	.profileId {
+		cursor: pointer;
+		margin: 0;
+	}
+	/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+	    padding: 0.6em;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		padding-left: 18%;
+		width: 250px;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 1.65em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+	width: 35% !important;
+	}
+}
+
+/*  데스크탑 (가로 해상도가 992px보다 크고 1199px 보다 작은 화면에 적용) */
+@media ( min-width : 992px) and (max-width: 1199px) {
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+		cursor: pointer;
+		width: 85px;
+		margin: 1rem;
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.mainTopMenuLi {
+		text-align: center;
+		min-width: 14rem;
+	}
+	.mainTopMenuLi>a {
+		font-size: 2.1rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 780px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+	    width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-evenly;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+
+	.profileBox {
+		display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+	    background-size: 100% 100%;
+	    width: 2.5em;
+	    height: 2.5em;
+	    margin-right: 0.4em;
+	    border-radius: 100%;
+	    cursor: pointer;
+	}
+	.profileId {
+		cursor: pointer;
+		margin: 0;
+	}
+	/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+	    padding: 0.6em;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		padding-left: 18%;
+		width: 250px;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 1.65em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+		width: 28% !important;
+	}
+}
+
+/* // 큰화면 데스크탑 (가로 해상도가 1200px 보다 큰 화면에 적용) */
+@media ( min-width : 1200px) {
+	.mainTop {
+/* 		margin: 3px 0; */
+	    display: flex;
+	    align-items: center;
+	    width: 100%;
+	    height:5vh;
+	    justify-content: space-between;
+	}
+	.topPrev {
+		display: flex;
+	    align-items: center;
+	    /* justify-content: space-evenly; */
+	    /* width: 340px; */
+	    font-weight: bolder;
+	}
+	.topPrev>div {
+    	margin-right: 35px;
+	}
+	.topNext {
+	    width: 300px;
+	}
+	.userLogin{
+		/*border: 1px solid #fafafa;*/
+		cursor: pointer;
+	    width: 60px;
+	    height: 30px;
+	    background-color: #3e84ad;
+	    display: flex;
+	    align-items: center;
+	    font-weight: 600;
+	    justify-content: center;
+	    border-radius: 6px;
+	}
+	.userLogout{
+		/* border: 1px solid #fafafa; */
+	    cursor: pointer;
+	    width: 60px;
+	    height: 30px;
+	    background-color: #ad3e3e;
+	    display: flex;
+	    align-items: center;
+	    font-weight: 600;
+	    justify-content: center;
+	    border-radius: 6px;;
+	}
+	.userProfileActive{
+		border: 1px solid #ffffff;
+	}
+	.topBox {
+		
+	}
+	.hrLine {
+		height: 0rem;
+		border: 0;
+		background-color: #5a5c5d;
+		padding: 0;
+	}
+	#sub-logoImg {
+		cursor: pointer;
+		width: 85px;
+		margin: 0 20px;
+	}
+	.mainTopMenuUl {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+	    align-items: center;
+	}
+	.mainTopMenuLi {
+		text-align: center;
+		min-width: 14rem;
+	}
+	.mainTopMenuLi>a {
+		font-size: 2.1rem;
+		color: #f2f2f3;
+		display: inline-block;
+	}
+	.mainTopMenuLi>p {
+		cursor: pointer;
+		font-size: 2.4rem;
+		line-height: 9.3rem;
+	}
+	.defaultPage {
+		padding: 0;
+		min-height: 780px;
+	}
+	.loginQuery {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginQueryResult {
+	    width: 100%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: flex-start;
+	}
+	.userInfoBox {
+		position: absolute;
+		bottom: 0;
+	}
+	.userInfoList {
+		
+	}
+
+	.profileBox {
+		width: 180px;
+	    display: flex;
+	    cursor: default;
+	    align-items: center;
+	    position: relative;
+	    justify-content: flex-start;
+	}
+	.profileImg {
+		background: url(../../image/profile/default_profile.png);
+	    background-size: 100% 100%;
+	    width: 2.5em;
+	    height: 2.5em;
+	    margin-right: 0.4em;
+	    border-radius: 100%;
+	    cursor: pointer;
+	}
+	.profileId {
+	    cursor: pointer;
+		margin: 0;
+	}
+/* 	menu */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 101;
+		top: 0;
+		right: 0;
+		background-color: rgb(0, 0, 0 ,0.9);
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+	.sidenav>a {
+	    padding: 0.6em;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+		padding-left: 18%;
+	    width: 250px;
+	}
+	
+	.sidenav>a:hover {
+		color: #f1f1f1;
+	}
+	.showNavMenu{
+		font-size:30px;
+		cursor:pointer;
+	}
+	.closebtn{
+		font-size: 2.2em;
+	    text-align: center;
+	    color: #818181;
+	    width: 50px;
+        cursor: pointer;
+	}
+	.closebtnBox{
+	    padding: 1.65em;
+	    color: #818181;
+	    transition: 0.3s;
+	    display: flex;
+	    justify-content: flex-end;
+	    padding-right: 10%;
+	}
+	.slideNavWidth{
+	width: 17% !important;
+	}
+	.loadingDolphinBox {
+	    margin: 7em auto;
+	}
+}
+.composeModal{
+	display:none;
+	background-color: rgba( 000, 000, 000, 0.8 );
+	/*width: 100%; */
+	/*height: 100%; */
+    z-index: 100;
+    position: absolute;
+    top: 0;
+	/*display: flex; */
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+.composeModalBox {
+    width: 400px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #868686;
+    position: relative;
+}
+.composeModalContent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadSubjectInputBox {
+    text-align: center;
+}
+.downloadMP3Input {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.downloadSubjectInputAlert {
+    color: #ff8a8a;
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+.confirmModalBtnBox {
+    margin-top: 20px;
+    display: flex;
+    width:200px;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.confirmModalBtn {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 30px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.downloadSubjectTitle {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.downloadSubjectInput {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.downloadCreateUserInput {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.userInfoContainer {
+    position: absolute;
+    bottom: -187px;
+    list-style: none;
+    padding: 5px 16px;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    background-color: #000;
+    display: none;
+    border-right: 1px solid #433f3f;
+    border-left: 1px solid #433f3f;
+    border-bottom: 1px solid #433f3f;
+}
+.userInfoContainer>.userInfoRow{
+    cursor: pointer;
+    /* padding-left: 35px; */
+    /* border-bottom: 1px solid #433f3f; */
+    display: flex;
+    align-items: center;
+    height: 35px;
+    justify-content: space-between;
+    transition: all 0.2s;
+}
+.userInfoContainer>.userInfoRow>.userInfoContent{
+	font-size: 12px;
+}
+.userInfoContainer>.userInfoRow>.subContent{
+	width: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+.logOut {
+    margin: 0 auto;
+}
+.myInfoHover{
+	z-index:777;
+}
+.myInfoHover:after{
+	background-color: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "My Info";
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    z-index: 778;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    border: 1px solid #433f3f; 
+}
+.myAlbumList {
+    cursor: pointer;
+}
