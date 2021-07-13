@@ -82,7 +82,6 @@
 			<div class="column_item project_title">프로젝트명</div>
 			<div class="column_item track_number_title">트랙 넘버</div>
 			<div class="column_item song_title_title">노래 명</div>
-			<div class="column_item origin_song_title">래퍼런스 음원</div>
 			<div class="column_item create_ai_song_title">인공지능 생성음원</div>
 			<div class="column_item result_song_title">편곡된 음원</div>
 		</div>
@@ -92,10 +91,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">할로윈 성으로</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/oHRqJXM1524" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/oHRqJXM1524" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -103,10 +102,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">할로윈이야</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/x7LZ_0-KzkA" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/x7LZ_0-KzkA" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -114,10 +113,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 </div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">할로윈 목장</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/bBPItwyXTn8" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/bBPItwyXTn8" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -125,10 +124,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 </div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">층간소음 송</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/dJ8Rx9BpcU0" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/dJ8Rx9BpcU0" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -136,10 +135,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 </div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">할로윈 파티</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/tr_55bfhS94" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/tr_55bfhS94" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -148,10 +147,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Eng) </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">To the Halloween Castle (Eng)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/lYESaWBDmsQ" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/lYESaWBDmsQ" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -159,10 +158,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Eng) </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">Halloween (Eng)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/6-zRG4iCpqw" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/6-zRG4iCpqw" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -170,10 +169,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Eng)</div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">Halloween Pasture (Eng)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/6-zRG4iCpqw" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/6-zRG4iCpqw" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -181,10 +180,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Eng) </div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">Floor Noise Song (Eng)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/j-pSZLIVlHM" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/j-pSZLIVlHM" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -192,10 +191,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Eng)</div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">Halloween Party (Eng)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/XkfUa9mNt2A" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/XkfUa9mNt2A" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -204,10 +203,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Jap) </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">To the Halloween Castle (Jap)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/98EPknFGXz0" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/98EPknFGXz0" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -215,10 +214,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Jap) </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">Halloween (Jap)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/qVO2xG8ti18" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/qVO2xG8ti18" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -226,10 +225,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Jap)</div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">Halloween Pasture (Jap)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/nBEs110egpc" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/nBEs110egpc" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -237,10 +236,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Jap) </div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">Floor Noise Song (Jap)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/sztJATq0hFc" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/sztJATq0hFc" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -248,10 +247,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Jap)</div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">Halloween Party (Jap)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/ijyanB9IMR0" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/ijyanB9IMR0" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -260,10 +259,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Chn) </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">To the Halloween Castle (Chn)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/JExr9cdfbiQ" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/JExr9cdfbiQ" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -271,10 +270,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Chn) </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">Halloween (Chn)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/-WWCsj4kW9s" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/-WWCsj4kW9s" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -282,10 +281,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Chn)</div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">Halloween Pasture (Chn)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/yyvjDNjpO28" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/yyvjDNjpO28" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -293,10 +292,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Chn) </div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">Floor Noise Song (Chn)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/2GFyNzhc5wo" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/2GFyNzhc5wo" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -304,10 +303,10 @@
 			<div class="column_item project">신비아파트 할로윈 앨범 (Chn)</div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">Halloween Party (Chn)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/Wt7hrcvuD6w" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/Wt7hrcvuD6w" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -316,7 +315,7 @@
 			<div class="column_item project">지니뮤직 창작 동요제 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">도토리 도리</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
 				-
@@ -327,7 +326,7 @@
 			<div class="column_item project">지니뮤직 창작 동요제 </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">호호 호빵</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
 				-
@@ -339,10 +338,10 @@
 			<div class="column_item project">드래곤디 크리스마스 캐롤송</div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">We wish you a merry christmas (AI Ver.)</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/jbjEE06dSJE" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/jbjEE06dSJE" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -351,10 +350,10 @@
 			<div class="column_item project">＜뚜아뚜지와 메리 크리스마스＞ AI 캐롤 동요</div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">뚜아뚜지 Intro</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/83ZrwHv_nO0?t=126" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/83ZrwHv_nO0?t=126" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -362,10 +361,10 @@
 			<div class="column_item project">＜뚜아뚜지와 메리 크리스마스＞ AI 캐롤 동요</div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">눈사람 친구</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=83ZrwHv_nO0" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=83ZrwHv_nO0" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -373,10 +372,10 @@
 			<div class="column_item project">＜뚜아뚜지와 메리 크리스마스＞ AI 캐롤 동요</div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">즐거운 크리스마스</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/83ZrwHv_nO0?t=209" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/83ZrwHv_nO0?t=209" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -385,10 +384,12 @@
 			<div class="column_item project">웰벤져스 캐롤</div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">윌벤져스의 크리스마스 소원</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+			  <a href="https://drive.google.com/file/d/1T7nBKP6A3L1AS72NBFnuemUy9hViieEe/view?usp=sharing" target='_blank'>Link</a>  
+			 </div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=k3bwzvU_dus&t=21s" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=k3bwzvU_dus&t=21s" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -397,10 +398,12 @@
 			<div class="column_item project">＜뚜아뚜지와 생활습관 익혀요＞ AI 동요</div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">마스크송</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				 <a href="https://drive.google.com/file/d/13CsY6stTF_DzWYn9wtcCpITjU1gdD01y/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/0R1eY0JyKIY" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/0R1eY0JyKIY" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -408,10 +411,12 @@
 			<div class="column_item project">＜뚜아뚜지와 생활습관 익혀요＞ AI 동요</div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">손씻기송</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/13CsY6stTF_DzWYn9wtcCpITjU1gdD01y/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
-				<a href="https://youtu.be/0R1eY0JyKIY?t=71" target='_blank'>YouTube</a>
+				<a href="https://youtu.be/0R1eY0JyKIY?t=71" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -420,7 +425,7 @@
 			<div class="column_item project">＜뚜아뚜지와 학교가요＞ AI 동요</div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">새학기송</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
 				-
@@ -431,7 +436,7 @@
 			<div class="column_item project">＜뚜아뚜지와 학교가요＞ AI 동요</div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">책가방송</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
 				-
@@ -443,10 +448,12 @@
 			<div class="column_item project">＜드래곤디X지니뮤직＞ 아기 동물 자장가 모음집</div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">아기 사자의 반짝 반짝 작은 별</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1yf936ijrPAq75cpdtp8gER5eU6oIJrGn/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=5lYU6d3yYo4" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=5lYU6d3yYo4" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -454,10 +461,12 @@
 			<div class="column_item project">＜드래곤디X지니뮤직＞ 아기 동물 자장가 모음집</div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">아기 양의 Hush Little Baby</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song"> 
+				<a href="https://drive.google.com/file/d/13oX1Cz2y0yd_pMJsSfz_yGQLRwcjZiY3/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=zQUNkOzKiUc" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=zQUNkOzKiUc" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -466,10 +475,12 @@
 			<div class="column_item project">＜Dragon Dee x Genie＞ Relaxing Animal Lullabies for Babies</div>
 			<div class="column_item track_number">4</div>
 			<div class="column_item song_title">Lion Cub Twinkle Twinkle Little Star</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1yf936ijrPAq75cpdtp8gER5eU6oIJrGn/view?usp=sharing" target='_blank'>Link</a>
+			</div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=l0b_yWKCMl0" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=l0b_yWKCMl0" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -477,10 +488,12 @@
 			<div class="column_item project">＜Dragon Dee x Genie＞ Relaxing Animal Lullabies for Babies</div>
 			<div class="column_item track_number">5</div>
 			<div class="column_item song_title">Baby Sheep Hush Little Baby</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/13oX1Cz2y0yd_pMJsSfz_yGQLRwcjZiY3/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=796c1BwwO2g" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=796c1BwwO2g" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -489,8 +502,10 @@
 			<div class="column_item project">채널A 강철부대 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">OST 가이드 포함 샘플</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song"> 
+				<a href="https://drive.google.com/file/d/1A6178AHU8qkEnzxZls076w35Tz5Z2nFi/view?usp=sharing" target='_blank'>Link</a> 
+		    </div>
 			<div class="column_item result_song">
 				-
 			</div>
@@ -500,8 +515,10 @@
 			<div class="column_item project">채널A 강철부대 </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">BGM 샘플</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1n48ibuDKl44HnDluG7Bu7rdSnpMl7V9r/view?usp=sharing" target='_blank'>Link</a>  
+			</div>
 			<div class="column_item result_song">
 				<a href="https://www.youtube.com/watch?v=tWkPIyKLYoA" target='_blank'>YouTube</a>
 			</div>
@@ -512,7 +529,7 @@
 			<div class="column_item project">GS 칼텍스 키워드 작곡 프로젝트 </div>
 			<div class="column_item track_number">-</div>
 			<div class="column_item song_title">-</div>
-			<div class="column_item origin_song">  -  </div>
+			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
 				-
@@ -524,22 +541,12 @@
 			<div class="column_item project">LG전자 김래아 프로젝트 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">김래아 프로젝트 샘플_01</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
-			<div class="column_item result_song">
-			  -  
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1v8eyMATdT7NM6NLWzzt7aC0gXZPvpr2C/view?usp=sharing" target='_blank'>Link</a>
 			</div>
-		</div>
-		
-		<div class="column_content upgrade_version">
-			<div class="column_item date">21-06-22</div>
-			<div class="column_item project">비패밀리 헬로카봇 프로젝트 </div>
-			<div class="column_item track_number">2</div>
-			<div class="column_item song_title">  -  </div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1dLY-Td-sozYS4NzdQ5dVl2EGllLtN5YJ/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content upgrade_version">
@@ -547,10 +554,39 @@
 			<div class="column_item project">비패밀리 헬로카봇 프로젝트 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">  -  </div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1nXm90CVFNaH4lO9PurO7_eTc3micQVMt/view?usp=sharing" target='_blank'>Link</a>
+			</div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/177Evbo2eHI4OS1f1kBaqRcq8gReuKmBx/view?usp=sharing" target='_blank'>Link</a>
+			</div>
+		</div>
+		<div class="column_content upgrade_version">
+			<div class="column_item date">21-06-22</div>
+			<div class="column_item project">비패밀리 헬로카봇 프로젝트 </div>
+			<div class="column_item track_number">2</div>
+			<div class="column_item song_title">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1nXm90CVFNaH4lO9PurO7_eTc3micQVMt/view?usp=sharing" target='_blank'>Link</a>
+			</div>
+			<div class="column_item result_song">
+				<a href="https://drive.google.com/file/d/1eRWfAsifYriW64HtIBLFJKoCQTq_75eV/view?usp=sharing" target='_blank'>Link</a>
+			</div>
+		</div>
+		
+		<div class="column_content upgrade_version">
+			<div class="column_item date">21-06-14</div>
+			<div class="column_item project">양준혁 응원가 프로젝트 </div>
+			<div class="column_item track_number">1</div>
+			<div class="column_item song_title">양준혁 응원가 샘플</div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/138_efdsF0ruesvvk0IawRTscXj0Aqulq/view?usp=sharing" target='_blank'>Link</a>
+			</div>
+			<div class="column_item result_song">
+				<a href="https://drive.google.com/file/d/1fDxWTFk5AqplIPISsD_b48KRO5jdk3cB/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -559,10 +595,12 @@
 			<div class="column_item project">조아영 앨범 </div>
 			<div class="column_item track_number">1</div>
 			<div class="column_item song_title">Play,Play,Play</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1S8RgYRIvsKNRcaajHahBdG5C_PJWqqce/view?usp=sharing" target='_blank'>Link</a>
+			</div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1czXdAgxp8zfU7BvPhPtI5tK8JKWBI5Io/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content upgrade_version">
@@ -570,10 +608,12 @@
 			<div class="column_item project">조아영 앨범 </div>
 			<div class="column_item track_number">2</div>
 			<div class="column_item song_title">Moonlight</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1ksaqIPnSR1h_ZqxL3YEjRik3vPOHsgZk/view?usp=sharing" target='_blank'>Link</a>
+			</div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/15eTrnGTYPD0lkeQi7BoUWPnOc21TaLxn/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content upgrade_version">
@@ -581,22 +621,511 @@
 			<div class="column_item project">조아영 앨범 </div>
 			<div class="column_item track_number">3</div>
 			<div class="column_item song_title">In The Water</div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			 
+			<div class="column_item create_ai_song">
+				<a href="https://drive.google.com/file/d/1MfGosXP_9wen9K3M-N6mdrYbph4pyU9b/view?usp=sharing" target='_blank'>Link</a>
+			</div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1lAJocfQCeC91DYrWNvZ9LAJM6K0JiKG6/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		
-		<div class="column_content upgrade_version">
-			<div class="column_item date">21-06-25</div>
-			<div class="column_item project">GS 칼텍스 2 장르별 프로젝트  </div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
 			<div class="column_item track_number">1</div>
-			<div class="column_item song_title"> - </div>
-			<div class="column_item origin_song">  -  </div>
-			<div class="column_item create_ai_song">  -  </div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
 			<div class="column_item result_song">
-				-
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">2</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">3</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">4</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">5</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">6</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">7</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">8</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">9</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">10</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">11</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">12</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">13</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">14</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">15</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">16</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">17</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">18</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">19</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">20</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">21</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">22</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">23</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">24</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">25</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-07</div>
+			<div class="column_item project">스튜디오 게일 티시태시 프로젝트  </div>
+			<div class="column_item track_number">26</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		
+		<div class="column_content working">
+			<div class="column_item date">21-07-08</div>
+			<div class="column_item project">지니뮤직 옥토넛 프로젝트   </div>
+			<div class="column_item track_number">1</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-08</div>
+			<div class="column_item project">지니뮤직 옥토넛 프로젝트   </div>
+			<div class="column_item track_number">2</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-08</div>
+			<div class="column_item project">지니뮤직 옥토넛 프로젝트   </div>
+			<div class="column_item track_number">3</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-08</div>
+			<div class="column_item project">지니뮤직 옥토넛 프로젝트   </div>
+			<div class="column_item track_number">4</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-08</div>
+			<div class="column_item project">지니뮤직 옥토넛 프로젝트   </div>
+			<div class="column_item track_number">5</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">정동하 프로젝트   </div>
+			<div class="column_item track_number">1</div>
+			<div class="column_item song_title"> 작업중 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">1</div>
+			<div class="column_item song_title"> A01 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">2</div>
+			<div class="column_item song_title"> A02 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">3</div>
+			<div class="column_item song_title"> A03 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">4</div>
+			<div class="column_item song_title"> A04 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">5</div>
+			<div class="column_item song_title"> A05 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">6</div>
+			<div class="column_item song_title"> A06 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">7</div>
+			<div class="column_item song_title"> A07 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">8</div>
+			<div class="column_item song_title"> A08 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">9</div>
+			<div class="column_item song_title"> A09 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">10</div>
+			<div class="column_item song_title"> A010 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">11</div>
+			<div class="column_item song_title"> B01 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">12</div>
+			<div class="column_item song_title"> B02 </div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
+			</div>
+		</div>
+		<div class="column_content working">
+			<div class="column_item date">21-07-12</div>
+			<div class="column_item project">경남 fc 프로젝트</div>
+			<div class="column_item track_number">3</div>
+			<div class="column_item song_title"> B03</div>
+			 
+			<div class="column_item create_ai_song">  작업중  </div>
+			<div class="column_item result_song">
+				작업중
 			</div>
 		</div>
 	</div>

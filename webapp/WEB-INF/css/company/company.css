@@ -262,3 +262,8 @@ input.contact_inputBox {
 .upgrade_version:hover {
 	background: #100e31 !important;
 }
+
+.working{
+	background: black !important;
+    opacity: 0.3;
+}
