@@ -1,0 +1,209 @@
+@charset "UTF-8";
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.detailContainer {
+    padding: 10px;
+    width: 700px;
+    margin: 1em auto;
+    background-color: #262d30;
+}
+.albumInfoName {
+    text-align: center;
+    width: 350px;
+    font-size: 20px;
+    color: #bdbdbd;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.albumDeleteBtn{
+	background: url(../../../image/myPage/delete.png) 0% 0% / cover;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.albumInfoDateBox {
+    color: #bdbdbd;
+    font-weight: 700;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.albumInfoBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #515253;
+}
+.albumInfoBox>.userName,.albumInfoBox>.albumInfoOption{
+	text-align: center;
+    width: 230px;
+    margin: 10px 0;
+}
+.albumInfoBox>.priceTitle,
+.albumInfoBox>.commentTitle,
+.albumInfoBox>.hashtagTitle{
+	margin: 10px 0;
+    width: 160px;
+    text-align: center;
+}
+.albumInfoBox>.priceValueBox,
+.albumInfoBox>.commentBox,
+.albumInfoBox>.hashtagBox{
+	margin: 10px 0;
+    width: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.commentBox>.commentValue{
+	height: 100px;
+}
+.priceValueBox>.priceValue,.commentBox>.commentValue,
+.hashtagBox>.hashtagValue{
+	color: #000;
+    width: 300px;
+    font-weight: 800;
+    padding: 6px;
+    resize: none;
+}
+.priceValueBox>span{
+	position: relative;
+    left: -25px;
+    font-size: 20px;
+    color: #201e1e;
+}
+.detailContainer>.hashtagArea{
+	width: 90%;
+    background-color: #181818;
+    height: auto;
+    min-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.detailContainer>.hashtagAlert {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.hashtagContainer{
+    border-bottom: none;
+}
+.detailContainer>.btnArea{
+	border-top: 2px solid #515253;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btnArea>.btnBox{
+	width: 130px;
+    margin-top: 9px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btnArea>.goListBtn{
+	background-color: #d53626;
+}
+.btnArea>.applyBtn{
+    background-color: #2684d5;
+}
+.albumDetailBtnBox{
+	width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+.albumDetailPlay{
+	background: url(../../../image/album_cover/samplePlay.png);
+    background-size: cover;
+}
+#albumDetailWaveForm {
+    width: 550px;
+    height: 100%;
+}
+.albumDetailPause{
+	background: url(../../../image/album_cover/samplePause.png);
+    background-size: cover;
+}
+.detailContainer>.albumDetailWaveBox {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 50px;
+    border: 2px solid #181818;
+    border-radius: 7px;
+    background-color: #181818;
+}
+.albumCoverBox{
+    width: 250px;
+    height: 250px;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0) 0px 0px 10px 9px;
+}
+.cdCase{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 51.7%;
+    z-index: 5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0) 0px 0px 15px 0px;
+    transition: all 0.1s;
+}
+.albumCoverBox>.infinite_rotating{
+	animation: spin 20s infinite linear;
+	-webkit-animation: spin 20s infinite linear;
+}
+.priceValueBox>.priceValue{
+	padding-right: 28px;
+    text-align: right;
+}
+@keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+.cdPlay{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: 8;
+    box-shadow: rgb(0 0 0) 3px 0px 5px 0px;
+}
+.cdCaseHoleLine{
+	background-color: #36393c;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(55 57 60) 0px 0px 20px 7px inset;
+}
+.cdCaseHole{
+    background-color: #26282b;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: rgb(55 57 60) 0px 0px 20px 7px, rgb(0 0 0) 0px 0px 14px 0px inset;
+    border: 1px solid #000000;
+}

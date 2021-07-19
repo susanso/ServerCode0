@@ -1,0 +1,261 @@
+@charset "UTF-8";
+.billing_container{
+	position: relative;
+}
+.billing_content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.billing_title {
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 2;
+    background-color: #000;
+    padding-right: 10px;
+}
+
+.price_info_box {
+    display: flex;
+    /* width: 700px; */
+    position: relative;
+/*     height: 200px; */
+    margin-bottom: 25px;
+}
+
+.price_info_content {
+    border: 1px solid #9d9d9d54;
+    width: 70%;
+    padding: 5px;
+    display:grid;
+    border-right: 2px dashed #9d9d9d;
+    border-radius: 19px 0 0 19px;
+}
+.price_info_title_box {
+	display: grid;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #9d9d9d54;
+    border-radius: 0 19px 19px 0;
+    border-left: 0;
+}
+.price_info_title {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    letter-spacing: 3.5px;
+}
+
+.promotion_price {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.price_buy_btn {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #0fb843;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.promotion_box {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promotion_content {
+    width: 80px;
+    /* background-color: red; */
+}
+.free_title_box {
+    background-color: #1c3478;
+}
+
+.freeBox_content {
+    background-color: #151c30;
+}
+
+.standardBox_content {
+    background-color: #01301c;
+}
+
+.standard_title_box {
+    background-color: #027c49;
+}
+
+.pro_title_box {
+    background-color: #5e26a8;
+}
+
+.proBox_content {
+    background-color: #170431;
+}
+.buy_promotion_title_box>div {
+    font-size: 18px;
+}
+
+.buy_promotion_box {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 60px 0px;
+    background-color: #10141e;
+    border: 1px solid #9d9d9d54;
+    display: grid;
+    display: none;
+}
+
+.buy_button_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buy_button {
+    width: 150px;
+    background-color: #0fb843;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.buy_promotion_title_box {
+    display: flex;
+}
+.buy_promotion_detail{
+	
+}
+.buy_promotion_detail_box {
+    display: flex;
+    /* font-size: 17px; */
+    align-items: center;
+    justify-content: flex-end;
+    /* border-bottom: 1px dashed; */
+    padding: 4px 0px;
+}
+
+.buy_promotion_detail_title {
+    font-size: 17px;
+}
+
+.buy_promotion_detail {
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.result_content {
+    margin: 5px 0px;
+    border-bottom: 1px dashed;
+}
+
+.promotion_box_title {
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    background: #10141e;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid #9d9d9d54;
+}
+.buy_promotion_title {
+    margin-left: 5px;
+}
+.billing_box {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 25px 0;
+}
+.billing_hrLine {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #f3f3f3;
+}
+.poster_container {
+	display: flex;
+	position: relative;
+	width: 100%;
+}
+.poster_box {
+    width: 50%;
+    height: 250px;
+    display: grid;
+    padding: 10px;
+}
+
+.poster_type01 {
+	position: relative;
+    background-color: black;
+    z-index: 3;
+}
+.poster_type01:after {
+    background: url(../../image/billing/type01.jpg) 0% 0% / cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.3 !important;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.poster_type02 {
+	position: relative;
+    background-color: black;
+    z-index: 2;
+}
+.poster_type02:after {
+    background: url(../../image/billing/type02.jpg) 0% 0% / cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.3 !important;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.poster_type03 {
+	position: relative;
+    background-color: black;
+}
+.poster_type03:after {
+    background: url(../../image/billing/type03.jpg) 0% 0% / cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.3 !important;
+    z-index: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.poster_box_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+.poster_box_content {
+    width: 300px;
+    margin: auto;
+/*     text-align: center; */
+}

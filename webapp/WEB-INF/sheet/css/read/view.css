@@ -1,0 +1,314 @@
+.tableContainer {
+	padding: 35px;
+    min-width: 812px;
+    background: #B3A5D9;
+    border-radius: 20px;
+    margin: 60px auto;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+	padding-top: 60px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.tableTitleBox {
+	display: flex;
+    width: 97%;
+    height: 60px;
+    justify-content: space-between;
+    border-style: hidden;
+    background-color: #DAD1FF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.selectViewType {
+	display: flex;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.viewMine {
+	border-style: solid;
+    background-color: #ffff;
+    border-radius: 20px;
+    min-width: 80px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #DAD1FF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.searchInfo {
+    color: darkgray;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-style: solid;
+    border-color: #D4D4D4;
+}
+
+.viewAll {
+	border-style: solid;
+    background-color: #FFBEF8;
+    border-radius: 20px;
+    min-width: 80px;
+    height: 30px;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-color: #DEA7D8;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.viewMine_viewAll {
+    display: flex;
+    
+}
+
+.column{
+	font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    align-self: center;
+}
+
+.pdname {
+	width: 100px;
+	margin-left: 10px;
+}
+
+.song {
+	width: 100px;
+}
+
+.artist {
+	width: 100px;
+}
+
+.genre {
+	width: 50px;
+}
+
+.key {
+	width: 50px;
+}
+
+.BPM {
+	width: 50px;
+}
+
+.beat {
+	width: 50px;
+}
+
+.songform {
+	width: 50px;
+}
+
+.track {
+	width: 200px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.inst {
+	width: 300px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.chordInfo {
+	width: 300px;
+	margin: 0;
+}
+
+.tableColumnBox{
+	display: flex;
+}
+
+.loadingContainer {
+	display: flex;
+	height: 100%;
+	align-items: center;
+  	justify-content: center;
+}
+
+.loadingBox {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #DAD1FF;
+  border-bottom: 16px solid #DAD1FF;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.dataColumnContainer{
+	width: 100%;
+	height: 580px;
+	overflow-y: overlay;
+	padding-right: 20px;
+}
+
+.tableDataBox{
+	display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    border-style: hidden;
+    background-color: #D4D4D4;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.tableDataBox:nth-child(2n) {
+    background: #FFEAF9;
+}
+
+.tableDataBox:nth-child(2n+1) {
+    background: white;
+}
+
+.dataColumnContainer::-webkit-scrollbar {
+	width: 10px;
+}
+
+.dataColumnContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.dataColumnContainer::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #D4D4D4;
+}
+.dataColumnContainer::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.search {
+	display: flex;
+}
+
+.searchBox {
+	color: black;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.searchBtn {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border-style: solid;
+    border-color: #DAD1FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.function {
+	display: flex;
+	justify-content: space-between;
+}
+
+.trackBox {
+	height: 90px;
+	overflow-y: overlay;
+}
+
+.trackColumn {
+	display: flex;
+	padding-left: 20px;
+}
+
+.chordBox {
+	height: 90px;
+	overflow-y: overlay;
+}
+
+.chordColumn {
+	display: flex;
+	padding-left: 20px;
+}
+
+.trackBox::-webkit-scrollbar {
+	width: 10px;
+}
+
+.trackBox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.trackBox::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #DAD1FF;
+}
+.trackBox::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.chordBox::-webkit-scrollbar {
+	width: 10px;
+}
+
+.chordBox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.chordBox::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #DAD1FF;
+}
+.chordBox::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+.serumBox {
+	height: 90px;
+	overflow-y: overlay;
+}
+
+.serumColumn {
+	display: flex;
+	padding-left: 20px;
+}
+
+.serumBox::-webkit-scrollbar {
+	width: 10px;
+}
+
+.serumBox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.serumBox::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: lightsteelblue;
+}
+.serumBox::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}

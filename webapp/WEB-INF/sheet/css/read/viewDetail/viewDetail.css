@@ -1,0 +1,390 @@
+@charset "UTF-8";
+html {
+    background: #262626;
+}
+body{
+	background: #262626;
+}
+
+/* 타이틀 */
+.Title {
+	text-align: center;
+	margin-top: 10vh;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 50;
+}
+
+/* <--------- 서치바 | 필터 부분 시작 ---------> */
+/* SEARCH */
+.search_bar_title {
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    align-content: center;
+    justify-content: flex-end;
+}
+.search_bar {
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    align-content: center;
+    justify-content: flex-end;
+}
+.search {
+    background: white;
+    border-radius: 5px;
+    color: #5E5E5E;
+    padding: 5px;
+    border-style: solid;
+    border-block-color: #4BA9FF;
+    margin-right: 10;
+    padding-right: 25px;
+}
+.search_img {
+    height: 30px;
+    position: absolute;
+    top: auto;
+    background: url(http://localhost:8888/image/market/test/search.png) 0% 0% / cover;
+    left: 80%;
+    width: 30px;
+    border-radius: 8px 0 0 8px;
+    padding: 5px;
+}
+.search_bar_input_box {
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+/* FILTER */
+select {
+	width: 110px;
+    background: white;
+    border-radius: 5px;
+    color: #5E5E5E;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-block-color: #4BA9FF;
+}
+
+.title_search {
+	color: white;
+    padding: 5px;
+    margin-right: 10;
+    font-weight: bold;
+    width: 210;
+}
+.title_filter {
+    width: 110px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+/* <--------- 카드 부분 시작 ---------> */
+/* 카드 전체를 감싸는 부분 */
+.all_cards_container {
+    /* height: 800px; 높이 지정 시 스크롤 나옴*/
+	margin: 0;
+    align-content: center;
+    font-family: Roboto;
+    overflow: auto;
+    justify-content: unset;
+}
+/* 카드 헤드 */
+.card_head {
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #262626;
+    border-radius: 20px 20px 0px 0px;
+    border-style: solid;
+    border-top-color: #CBCBCB;
+    border-left-color: #CBCBCB;
+    border-right-color: #CBCBCB;
+    border-width: thin;
+}
+.card_head_title {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card_head_buttons {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.song_title {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+.song_artist {
+    font-weight: normal;
+    font-size: small;
+    color: black;
+    margin-top: 5;
+}
+
+/* <--------- 버튼 부분 시작 ---------> */
+/* 수정 버튼 */
+.button.edit_button {
+    background-color: #FFEAF9;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 45;
+    height: 25px;
+    margin-right: 5;
+    padding: 0;
+    line-height: unset;
+    box-shadow: 0 4px 16px rgb(0 79 255 / 30%);
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 클릭 시 포커스 테두리 삭제 */
+.button.edit_button:focus{
+	outline:0;
+}
+/* 마우스오버 시 색상 및 그림자 변화 */
+.button.edit_button:hover{
+	background: #FF5674;
+	cursor: pointer;
+	box-shadow: 0 2px 4px #c65465;
+}
+/* 저장 버튼 */
+.button.save_button {
+	display: none;
+    background-color: #FF5674;
+    background-color: #b70000;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 45;
+    margin-right: 5;
+    text-align: center;
+    border: none;
+    transition: 0.3s;
+    height: 25px;
+    padding: 0;
+    line-height: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 클릭 시 포커스 테두리 삭제 */
+.button.save_button:focus{
+	outline:0;
+}
+/* 마우스오버 시 색상 및 그림자 변화 */
+.button.save_button:hover{
+	background: #FFEAF9;
+	cursor: pointer;
+	box-shadow: 0 2px 4px #FF5674;
+}
+
+/* 삭제 버튼 */
+.button.delete_button {
+    background-color: #B6B6B6;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 45;
+    text-align: center;
+    box-shadow: 0 4px 16px rgb(0 79 255 / 30%);
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin-right: 5;
+    padding: 0;
+    line-height: unset;
+    justify-content: center;
+}
+/* 클릭 시 포커스 테두리 삭제 */
+.button.delete_button:focus{
+	outline:0;
+}
+/* 마우스오버 시 색상 및 그림자 변화 */
+.button.delete_button:hover{
+	background: #B6B6B6;
+	cursor: pointer;
+	box-shadow: 0 2px 4px #8b8a8c;
+}
+
+
+/* <--------- 카드 안쪽 부분 시작 ---------> */
+/* background-보라색 */
+.card_content_purple_background {
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #B3A5D9;
+    border-radius: 0px 0px 20px 20px;
+}
+/* background-회색 */
+.card_content_gray_background {
+    margin: 10;
+    padding: 15px;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    color: black;
+    width: -webkit-fill-available;
+}
+/* 카드 하나 당 컨테이너 하나 */
+.card_container {
+    margin-bottom: 15px; 
+}
+/* 작업 담당자, 작업자 이름 */
+.card_content_writer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5px;
+    color: #4E4E4E;
+}
+input.update_input.writer_name {
+    color: #4E4E4E;
+}
+/* 작업 담당자 */
+.writer {
+    margin-right: 10;
+    font-weight: bold;
+}
+/* BPM, 박자 */
+.update_input.bpm_beat {
+    display: flex;
+}
+
+/* 카드 내 head 공통 */
+.item_head {
+    font-weight: bold;
+    border-bottom-color: #EBEBEB;
+    border-width: medium;
+    border-bottom-style: solid;
+    padding: 5px;
+}
+
+/* 카드 내 content 공통 */
+.item_content {
+    padding: 5px;
+    width: 100%;
+}
+
+/* 곡 정보 : 장르, 키, BPM, 송폼 넘버링, 트랙 형태, 코드 정보 */
+.card_content_song_info {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.songInfo {
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    overflow: auto;
+}
+.songInfo.track {
+    margin-right: 5px;
+}
+.songInfo.genre {
+    margin-right: 5px;
+}
+.songInfo.key {
+    margin-right: 5px;
+}
+.songInfo.BPM_beat {
+    margin-right: 5px;
+}
+.code_info {
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+/* <-- 마디 --> */
+.code_inform_content.bar {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: flex-start;
+}
+.code_inform_content.bar_head {
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+.track_content.track_number {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.item_content.track_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* 트랙 형태 스크롤 */
+.track_contents {
+    HEIGHT: 150px;
+    OVERFLOW-Y: OVERLAY;
+}
+.track_contents::-webkit-scrollbar {
+    width: 5px; /*스크롤바의 너비*/
+}
+.track_contents::-webkit-scrollbar-thumb {
+    background-color: #898989; /*스크롤바의 색상*/
+    border-radius: 10px;
+}	
+.track_contents::-webkit-scrollbar-thumb:hover{
+	background: #787878;
+	cursor: pointer;
+}
+
+/* 전체 카드들 스크롤 */
+.all_cards_container{
+	OVERFLOW-Y: auto;
+}
+.all_cards_container::-webkit-scrollbar {
+    width: 10px; /*스크롤바의 너비*/
+}
+.all_cards_container::-webkit-scrollbar-thumb {
+    background-color: #787878; /*스크롤바의 색상*/
+    border-radius: 10px;
+}	
+.all_cards_container::-webkit-scrollbar-thumb:hover{
+	background: #787878;
+	cursor: pointer;
+}
+
+/* top 이동 버튼 */
+a#topBtn {
+  	position: fixed;   /* 포지션 고정 */
+   	right: 30px;         /* 오른쪽에서 2% - %도 할수 있음*/
+   	bottom: 0px;       /* 밑에서 5px */
+   	width: 40px;
+   	height: 30px;
+   	justify-content: center;
+    border-radius: 10% 10% 0 0;
+    background: white;
+   	display: flex;     /* 보여지지 없음 - 기본적으로  안보여지게 */
+   	z-index: 9999;     /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */
+	font-weight: bolder;
+	align-items: center;
+}
+a {
+    color: #003ad6;
+}
+

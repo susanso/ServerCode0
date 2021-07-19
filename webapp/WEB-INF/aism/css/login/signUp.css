@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+.signUpBox {
+	width: 500px;
+	padding: 0;
+}
+.signUpInputmBox{
+	width: 80%;
+	text-align:center;
+	padding: 0;
+}
+.signUpInputForm {
+    background-color: #505051;
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    padding-left: 1em;
+}
+.anotherTitle{
+	width: 98px;
+}
+.signUpTitle {
+	text-align:left;
+	padding: 0;
+	line-height: 2em;
+    width: 100px;
+}
+.alertBox {
+    padding: 0 0 0 1em;
+    font-size: 0.8em;
+}
+.email_start,.email_end,.selectEmail {
+	width: 120px;
+}
+.selectEmail {
+    border-left: 1px solid #26282b;
+}
+.selectJob{
+	border-left: 1px solid #26282b;
+}
+.surveyList {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0.5em;
+}
+.surveyListDetail {
+	border: 1px solid #575757;
+	width: 76px;
+	border-radius: 5px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+.youtube:hover {
+	border: none;
+	background-image: linear-gradient(to right, red, red);
+}
+.facebook:hover {
+	border: none;
+	background-image: linear-gradient(to right, #4267b2, #4267b2);
+}
+.instagram:hover {
+	border: none;
+	background-image: linear-gradient(to right, #ed8128, #d62977, #7d32aa, #4e58cd);
+}
+.twitter:hover {
+	border: none;
+	background-image: linear-gradient(to right, #2aa9e0, #2aa9e0);
+}
+.study:hover, .store:hover, .hobby:hover {
+	border: none;
+	background-color: #8baad8;
+}
+.another {
+}
+.createSignUp {
+	margin: auto;
+	background: #246593;
+	text-align: center;
+	height: 45px;
+	font-size: 20px;
+	cursor: pointer;
+	line-height: 44px;
+	margin-top: 1em;
+	border-radius: 3px;
+}
+.signUpculumnRow{
+	align-items: center;
+    margin-bottom: 0.5em;
+    padding: 0;
+    display: flex;
+  	justify-content: flex-end;
+    
+}
+/* 	.changeProfileImg{ */
+/* 		margin: 0 auto; */
+/* 	    display: flex; */
+/* 	    text-align: center; */
+/* 	    width: 200px; */
+/* 	    height: 30px; */
+/* 	    background-color: #505051; */
+/* 	    justify-content: center; */
+/* 	    align-items: center; */
+/* 	    cursor: pointer; */
+/* 	    border-radius: 10px; */
+/* 	} */
+.profileImgBox{
+	margin-top: 1em;
+   	margin-bottom: 1em;
+}
+.phoneSelectBox{
+	width: 120px;
+    padding: 0.2em;
+}
+.phoneInputBox_after,.phoneInputBox_before {
+    width: 120px;
+}
+.phoneInputmBox,.emailInputmBox{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phoneInputBox{
+	padding: 0;
+ 	    text-align: center;
+}
+.findAddr{
+	background: linear-gradient(0.25turn, #a888a1, #34709d);
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    cursor: pointer;
+}
+.email_result {
+    width: 130px;
+}
+.submitEmail{
+    background: linear-gradient(0.25turn, #a888a1, #34709d);
+    display: flex;
+    height: 35px;
+    width: 135px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    cursor: pointer;
+}
+.returnInsertEmail{
+	background-color: #db7474;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    cursor: pointer;
+    width: 130px;
+}
+.email_resultBtn{
+	background: linear-gradient(0.25turn, #a888a1, #34709d);
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2em;
+    cursor: pointer;
+    width: 130px;
+}
+.emailResultBox{
+	display: none;
+}
+.cancelEmailBox{
+	display:none;
+	background-color: #db7474;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.2em;
+	cursor: pointer;
+	width: 50px;
+	border-radius: 3px;
+}
+.createSubmitEmail{
+	cursor:default;
+	background: #6aa962;
+	height: 35px;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.2em;
+	width: 80px;
+	border-radius: 3px;
+}
+.signUpContainer {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0.01turn, #00a8ff1c, #080a0c00);
+}

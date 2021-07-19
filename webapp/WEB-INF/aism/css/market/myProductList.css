@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.contentContainer{
+    width: 1100px;
+    /* background: url(../../image/markect/test/mysellerBanner.jpg) 0% 0%/cover; */
+    /* background-color: rgb(80,80,81,0.4); */
+    /* opacity: 0.3; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    margin: 0 auto;
+}
+.contentContainer>.navUl{
+	list-style: none;
+    /* background: linear-gradient(0.25turn, #000000, #340101); */
+    /* background: black; */
+    padding: 0;
+    width: 200px;
+    margin: 0;
+}
+.contentContainer>.navUl.>navList{
+	
+}
+
+
+li.navList{
+	text-align: center;
+    margin: 10px;
+    padding-bottom: 0;
+    display: flex;
+    cursor: pointer;
+    margin-left: 25px;
+    /* background: linear-gradient(0.25turn, #000000, #340101); */
+    height: 39px;
+    align-items: center;
+    margin-right: 0;
+}
+li.navListActive{
+	border-left: 10px solid #ffffff;
+    padding-left: 10px;
+}
+.navContent {
+    background-color: #000000;
+    width: 900px;
+    /* background: linear-gradient(0turn, #000, #01043b,#000000); */
+}
+
+.myList {
+    width: 100%;
+    height: 100%;
+}
+.sellCardContainer {
+    width: 200px;
+    display: inline-block;
+    height: 275px;
+    padding: 10px;
+    margin: 12px;
+    /* background-color: #585858; */
+}
+.albumImg {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.defaultInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sellerInfo {
+    width: 100px;
+    /* background-color: steelblue; */
+}
+.songTitle {
+    /* text-align: center; */
+    font-size: 14px;
+    font-weight: 600;
+}
+.sellerName {
+    font-size: 14px;
+    color: #787878;
+    font-weight: bolder;
+}
+.downInfo {
+    width: 80px;
+    /* background-color: aqua; */
+    /* font-size: 14px; */
+}
+.downCount {
+    font-size: 14px;
+    text-align: right;
+    color: #787878;
+}
+.sellerPrice {
+    text-align: right;
+    font-size: 14px;
+    background-color: #dfff00;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.reSetting {
+    background-color: #9100ff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+

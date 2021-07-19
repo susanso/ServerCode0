@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+.InputWrapper {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vh;
+}
+
+.Title {
+	text-align: center;
+	margin-top: 10vh;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.InputContainer {
+/* 	display: flex; */
+	width: 70%;
+	height: 70%;
+	background: #262626;
+	border: 1px solid #EBEBEB;
+	border-radius: 10px;
+/* 	높이 값 top bottom 높이만큼 빼주 */
+/* 	justify-content: space-between; */
+}
+.InputTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 4vh;
+}
+.InputContentWrapper {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #B3A5D9;
+    width: 100%;
+    height: calc(100% - 4vh);
+    border-radius: 0 0 10px 10px;
+}
+
+.InputContent {
+	display: flex;
+	flex-direction: column;
+	background: #EBEBEB;
+    color: black;
+    width: 92%;
+    height: 92%;
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+.InputTopTitle {
+	width: 95%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.InputTopBtn {
+	width: 5%;
+}
+
+.InputContentBottom {
+	display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 100%;
+}
+
+.SongInput {
+	display: flex;
+    justify-content: center;
+    padding: 1vh 0 0;
+    flex-direction: column;
+    background: white;
+    margin: 1vh;
+    border-radius: 0.7vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Input {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: white;
+    border-radius: 10px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    margin: 0 10px 10px 0;
+}
+
+.SongInfoInputContainer{
+	font-weight: bold;
+	text-align: center;
+	display: grid;
+	grid-template-areas: "songName songName songName songName artist artist artist artist genre genre genre genre"
+	"keyName keyName keyName bpm bpm bpm songForm songForm songForm beat beat beat";
+}
+
+.songName { grid-area: songName; }
+.artist { grid-area: artist; }
+.genre { grid-area: genre; }
+.keyName { grid-area: keyName; }
+.bpm { grid-area: bpm; }
+.songForm { grid-area: songForm; }
+.beat { grid-area: beat; }
+
+.InputBar {
+	font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 0.5vh;
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.scrollInputBar{
+	font-weight: bold;
+    font-size: 15px;
+}
+
+.input_label {
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    height: 3vh;
+}
+
+.input_label:focus {outline:none;}
+
+.input_serum_label{
+	border: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    height: 3vh;
+}
+
+.input_serum_label:focus {outline:none;}
+
+.trackNumButton {
+	font-weight: bold;
+	color: black;
+}
+
+
+.measureNumButton {
+	font-weight: bold;
+	color: black;
+}
+.plusMinusBtn {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.plusBtn {
+	width: 20px;
+	border-radius: 40%;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FF5674;
+}
+
+.minusBtn {
+	width: 20px;
+    border-radius: 40%;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #B3A5D9;
+}
+
+.song_info{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.InstInfoInputContainer{
+	font-weight: bold;
+	text-align: center;
+	margin: 1vh;
+    border-radius: 0.7vh;
+    background: white;
+}
+
+
+
+.InstInputTop{
+	display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    border-bottom: 3px solid #EBEBEB;
+    padding: 1vh 1vh 0.5vh;
+}
+
+.ChordInputTop{
+	display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    border-bottom: 3px solid #EBEBEB;
+    padding: 1vh 1vh 0.5vh;
+}
+
+
+.trackChordInputContent {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.3vh;
+}
+
+.inst_info{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.ChordInfoInputContainer{
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	margin: 1vh;
+    border-radius: 0.7vh;
+}
+
+.trackNum{
+    border: none;
+    width: 4vw;
+    text-align: center;
+    margin: 0;
+    height: 3vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.trackNum:focus {outline:none;}
+
+.measureNum{
+	border: none;
+    width: 4vw;
+    text-align: center;
+    margin: 0;
+    height: 3vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+.measureNum:focus {outline:none;}
+
+.chord_info {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.scroll_container {
+	overflow-y: overlay;
+	margin: 1vh 0vh 1vh 1vh;
+}
+
+.scroll_container_wrapper {
+	display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+label {
+	margin: 0;
+}
+
+.instToggleUp{
+	display : none;
+}
+
+
+.emptyInputAlertBox{
+	display: none;
+    width: 300px;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+.alertBox{
+	display: none;
+    width: 300px;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+}
+
+.modalCloseBtn{
+	cursor: pointer;
+	position: absolute;
+    top: 35px;
+    right: 10px;
+}

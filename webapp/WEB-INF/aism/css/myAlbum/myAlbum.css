@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+
+.mainContainer {
+    display: flex;
+    width: 1350px;
+    height: 95vh;
+    margin: 0px auto;
+/*     border-right: 1px solid #5c5c5c; */
+/*     border-top: 1px solid #5c5c5c; */
+}
+ul.albumContainer {
+    padding: 0;
+    position: sticky;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+    top: 0;
+    background-color: #1d1f21;
+    list-style: none;
+}
+
+ul.albumContainer>li {
+    width: 150px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 11px;
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid #5c6064;
+    height: 39px;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+.nav_title_arrowBtn {
+    width: 13px;
+    margin: 4px;
+    height: 13px;
+    background: url(../../image/myAlbum/slideDown.png) 0% 0%/cover;
+}
+.arrowBtn_slideUp{
+	transition: transform .25s ease-in;
+	transform: rotate(180deg);	
+}
+.myAlbum_box {
+	width: 1200px;
+	overflow-y: overlay;
+    height: 100%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.myAlbum_box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.contentMusicBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151515;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
+.contentMusicInfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.contentMusicImg {
+    width: 80px;
+    border-radius: 3px;
+    height: 80px;
+}
+.contentMusicTitle {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.contentMusicUser {
+    font-weight: 900;
+    color: #c5c5c0;
+}
+.contentMusicLikeBox {
+    display: flex;
+} 
+.contentMusicLikeBox>div {
+    margin-right: 15px;
+    color: #c5c5c0;
+}
+.contentMusicLikeBox>div {
+    margin-right: 15px;
+    color: #c5c5c0;
+}
+.contentMusicPrice {
+    margin: 10px;
+    background-color: #f9ff00;
+    width: 76px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.selectContainer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.selectTypeContainer {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.selectContainer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.viewOptionContainer {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.viewBox {
+    width: 35px;
+    background-color: #151515;
+    height: 35px;
+}
+.selectOptionBox {
+    height: 30px;
+    background-color: #1d1f21;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.listTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 19px 0px;
+}
+#buyList,#likeList,#sellList{
+	display: none;
+}
+.navListActive {
+    background-color: #374556;
+}
+.cardDownBox {
+    display: flex;
+    width: 130px;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.cardDownBox>.downBox {
+	cursor:pointer;
+    background-color: red;
+    height: 41px;
+    width: 41px;
+}
+.cardDownBox>.pdf{
+	background: url(../../image/myPage/downScore.png) 0% 0% / cover;
+}
+.cardDownBox>.mp3{
+	background: url(../../image/myPage/downMp3.png) 0% 0% / cover;
+}
+.cardDownBox>.midi{
+	background: url(../../image/myPage/downMidi.png) 0% 0% / cover;
+}
+.composeKeyword{
+	background-color: rgb(26,39,69,0.13);
+}
+.composeReference{
+	background-color: rgb(69 26 26 / 51%);
+}
+.contentMusicTextBox {
+    margin-left: 16px;
+    display: grid;
+    min-width: 200px;
+}
+.contentMusicTextBox>.date {
+    font-weight: 900;
+    color: #c5c5c0;
+    font-size: 13px;
+}
+.deleteButton{
+	margin: 0 0 10px 10px;
+    background: url(../../image/myPage/delete.png) 0% 0% / cover;
+    cursor: pointer;
+    height: 19px;
+    width: 19px;
+}
+.deleteButtonBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.deleteAlbumBtn {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 30px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.deleteMargin{
+	margin-bottom: 25px;
+}

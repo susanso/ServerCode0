@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="compose">
+
+	<!--장르 리스트 가져오기 -->
+	<select id="selectGenre" resultType="hashmap">
+		select distinct genretitle, genre, genrestate from aism_compose_selectmod
+	</select>
+	<!--키워드 리스트 가져오기  -->
+	<select id="selectKeyword" resultType="hashmap">
+		select distinct keyword,keytitle,keywordstate from aism_compose_selectmod;
+	</select>
+	
+	<!--처음 장르 클릭시  키워드보이기-->
+	<select id="genreClickKeyword" parameterType="String" resultType="hashmap">
+		select distinct keytitle, keyword, keywordstate from aism_compose_selectmod where genre = #{genre}
+	</select>
+	<!--키워드 클릭시 분위기,빠르기 가져오기 -->
+	<select id="KeywordClickMoodTempo" parameterType="String" resultType="hashmap">
+		select distinct mood, tempo from aism_compose_selectmod where keyword =#{keyword}
+	</select>
+	<!--분위기 클릭시 빠르기 키워드가져오기 -->
+	<select id="moodClickKeyword" parameterType="HashMap" resultType="hashmap">
+		select distinct  keytitle, keyword, keywordstate from aism_compose_selectmod where mood =#{mood} and genre=#{genre} 
+	</select>
+	<!--빠르기 클릭시 빠르기 키워드가져오기 -->
+	<select id="tempoClickKeyword" parameterType="HashMap" resultType="hashmap">
+		select distinct  keytitle, keyword, keywordstate from aism_compose_selectmod where mood =#{mood} and genre=#{genre} and tempo =#{tempo}
+	</select>
+	
+	<!--레퍼런스 키 가져오기 -->
+	<select id="getReferenceKey" parameterType="HashMap" resultType="String">
+		select KeyName from aism_data_ref_songlist where songname = #{title} and artistname = #{artist}; 
+	</select>
+</mapper>

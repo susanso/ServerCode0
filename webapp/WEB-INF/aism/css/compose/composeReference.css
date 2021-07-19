@@ -1,0 +1,1328 @@
+@charset "UTF-8";
+body {
+	background-color: #26282b;
+    color: #f2f2f3;
+}
+html {
+	scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.stepList {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 0 3em 0; */
+    height: 75px;
+}
+.stepList>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.stepStateBox {
+    font-weight: 600;
+    cursor: default;
+    color: #f5f6f7;
+    width: 11rem;
+    margin: 1.6rem;
+    display: flex;
+    transition: all 0.6s;
+    align-items: center;
+    justify-content: center;
+}
+.stepStateArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4em;
+    cursor: default;
+}
+.stepState {
+    color: #49749e;
+	/*font-size: 1.1em; */
+}
+.step01{
+	/*width: 1100px; */
+    min-height: 760px;
+    margin: 0 auto;
+}
+*:focus {
+  outline: 0;
+}
+
+.referenceCardBox {
+	border: 1px solid #000;
+	width: 400px;
+}
+.referenceSwiper-container{
+	background: linear-gradient(-0.0turn, #26282b, #000000,#26282b);
+    overflow: hidden;
+    width: 100%;
+    margin: 0.5em auto;
+    perspective: 700px;
+}
+.referenceContentBox {
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+}
+.referenceContentBox>.contentTitleBox {
+	align-items: center;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.referenceContentBox>.contentTitleBox>.contentTitle {
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: bolder;
+}
+.referenceContent{
+	padding: 10px;
+    height: 80%;
+    overflow-y:overlay;
+    background: #323232;
+}
+.Content_musicLiBox{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5em 0;
+    height:4em;
+    transition:all 0.2s;
+    cursor: pointer;
+}
+.Content_musicLiBox:hover{
+	background-color: #757575;
+/* 	background-color: #20447b; */
+}
+.Content_musicLiBoxActive{
+/* 	background-color: #20447b; */
+}
+.musicLiBoxTitle>p{
+	text-overflow:ellipsis;
+    font-weight: 500;
+    width: 245px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+}
+.musicLiBoxTitle{
+	
+}
+.musicLiBoxBtn{
+	cursor: pointer;
+    width: 30px;
+    height: 30px;
+	/*대표님 임시 지시사항 */
+	display: none !important;
+}
+.musicLiBoxBtnPlay{
+	background: url(../../image/album_cover/samplePlay.png);
+    background-size: cover;
+}
+.musicLiBoxBtnPause{
+	background: url(../../image/album_cover/samplePause.png);
+    background-size: cover;	
+}
+.musicLiBoxImg{
+	width: 50px;
+    height: 50px;
+	/*background-color: #191919; */
+}
+.referenceContent::-webkit-scrollbar {
+	width: 7px;
+}
+.referenceContent::-webkit-scrollbar-track {
+	background-color: #000000;
+}
+.referenceContent::-webkit-scrollbar-thumb {
+	background: #aaaaaa;
+}
+.referenceContent::-webkit-scrollbar-thumb:hover {
+	background: #999999;
+}
+.referenceContent::-webkit-scrollbar-thumb:active {
+	background: #404040;
+}
+.referenceContent::-webkit-scrollbar-button {
+	display: none;
+}
+.resultMusicAlertBox{
+	/*margin: 30px 0; */
+}
+.resultMusicAlert{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.referenceLoading{
+	display: none;
+}
+.step02{
+	display: none;
+	min-height: 760px;
+}
+.loadingDolphinBox {
+    margin: 10em auto;
+}
+.loadingPercent {
+	position: relative;
+	bottom: -21px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.dolphinImg {
+	width: 400px;
+	margin: 0 auto;
+/* 	background: url(../../image/step01/3d_dolphin_splash.gif); */
+	background-size: 100% 100%;
+	height: 400px;
+}
+.progress {
+	background-color: #646464;
+	margin: 0 auto;
+	width: 400px;
+	box-shadow: none;
+}
+
+#dynamic {
+	height: 100%;
+	transition: all 0.5s ease 0s;
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(0.25turn, #d264ba, #2287d2);
+}
+.selectedMainMusic{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+    height: 4em;
+    transition: all 0.2s;
+    background-color: #1c1c1c;
+}
+.selectedMainMusicImg{
+	width: 50px;
+    height: 50px;
+}
+.mainMusicBoxTitle>p{
+	text-overflow:ellipsis;
+    font-weight: bold;
+    width: 245px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mainMusicBoxTitle{
+	
+}
+.MainMusicPlayBtn{
+	background: url(../../image/album_cover/samplePlay.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+/*     border-radius: 50%; */
+}
+.referenceAlertBox{
+	margin: 0px auto;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.referenceAlert{
+	font-size: 1.2em;
+}
+.referencePercent{
+	margin: 0px auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.percentOption{
+    width: 10.35em;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    margin: 0 1px;
+    background-color: #0f1012;
+    cursor: pointer;
+}
+
+
+
+.percentOption>.OptionTitle{
+	font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-weight: bolder;
+}
+.percentOption>.OptionEx{
+	color: #535353;
+/* 	display: flex; */
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    display: none;
+}
+.percentOptionAvtive{
+    background: #486f97;
+    transition: all 0.2s;
+}
+.percentOptionAvtive>.OptionEx{
+	color: #ffffff;
+}
+.percentOptionUl{
+    display: none;
+    margin: 0 auto;
+    overflow-y: auto;
+    margin-bottom: 50px;
+}
+.percentOptionLi{
+	position:relative;
+	z-index:3;
+	background-color: #1c1c1c;
+    height: 3em;
+    margin: 1px auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition:all 0.2s;
+    cursor: pointer;
+}
+.percentOptionLi:hover{
+	background-color: #000;
+}
+.selectOptionTitle{
+	/*background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+.disabledbutton{
+		pointer-events: none;
+		opacity: 0.4;	
+}
+.selectOption{
+    width: 20px;
+    height: 20px;
+}
+.selectOptionPlay{
+	background: url(../../image/album_cover/samplePlay.png);
+	background-size: cover;
+}
+.selectOptionPause{
+	background: url("../../image/album_cover/samplePause.png");
+	background-size: cover;
+}
+.percent_box{
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+	/*background-color: #254c75;*/
+	background-color: #2a2a2b;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    right: 575px;
+    border-radius: 50%;
+    bottom: 245px;
+/*     box-shadow: 0px 12px 8px -3px black; */
+	box-shadow: 1px 10px 13px #131313, -6px -3px 17px #383838;
+	/*대표님 임시 지시사항 */
+	display: none !important;
+}
+.percentTitle{
+    margin: 0;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: flex-end;
+    width: 48px;
+}
+.referenceBtnBox{
+	cursor: pointer;
+	width: 500px;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+.referenceBtn{
+	width: 130px;
+    height: 53px;
+    background-color: #0f1012;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.step03{
+	display: none;
+	min-height: 760px;
+}
+
+/*작곡 틀 */
+.compose_container {
+    height: 100%;
+    min-height: 300px;
+/*     margin-top: 100px; */
+    padding: 10px;
+	width: 930px;
+	display: none;
+	margin: 0 auto;
+}
+.warning_Box {
+    height: 100%;
+    min-height: 300px;
+    padding: 0;
+    width: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    z-index: 10000;
+/*     display: none; */
+}
+.compose_top_navOptionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-top: 15px;
+	
+}
+.compose_top_navOptionContent{
+	display: flex;
+    padding: 0;
+    align-items: center;
+    height: 31px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+.navOptionEmpty{
+	background-color: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.navOptionContent{
+	background-color: #272727;
+    width: 140px;
+    height: 100%;
+    display: flex;
+    margin-right: 3px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+.navSongformName{
+	position: relative;
+    background-color: inherit;
+    width: 140px;
+    height: 60%;
+    display: flex;
+    margin-right: 3px;
+    margin-top: 10px;
+    align-items: center;
+    border-left: 2px solid #fff;
+    transition:all 0.2s;
+}
+.CRTime{
+    position: absolute;
+    top: -24px;
+    left: -33px;
+    width: 63px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.CRTime:hover {
+	font-size: 1.2em;	
+}
+.lastCRTime{
+	position: absolute;
+    top: -24px;
+    left: 105px;
+    width: 63px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    transition: all 0.3s;
+}
+.navSongformName:nth-last-child(1){
+	 border-right: 2px solid #fff;
+}
+.selectMusicBtn{
+    width: 130px;
+    height: 50px;
+    background-color: #0f1012;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    cursor: pointer;
+	
+}
+.selectMusicBtnBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.selectKeyBox {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+    /*대표님 임시 지시사항 */
+    display:none !important;
+}
+.selectKeyUl{
+	display: none;
+}
+.selelctKeyBlock {
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 8.4px;
+}
+.selectKeyLi {
+    background-color: black;
+    font-size: 1.4em;
+    width: 60px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #4a4a4a;
+    cursor: pointer;
+}
+.selectKeyLiActive{
+	background: #486f97;
+}
+.selectedKey{
+    transition: all 0.5s;
+    background-color: black;
+    font-size: 1.4em;
+    width: 60px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #4a4a4a;
+    cursor: pointer;
+}
+.selectedKeyExpansion{
+    width: 500px;
+    height: 212px;
+    flex-wrap: wrap;
+    cursor: default;
+    transition: all 0.1s;
+}
+.referenceApplyBtnBox{
+	
+}
+.referenceApplyBtn{
+	display:none;
+	width: 100px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #0f1012;
+	/*display: flex; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.referenceApplyBtn>p{
+	margin: 0;
+}
+.defatilPlay_loading {
+    margin: 0 auto;
+    /* display: none; */
+    width: 30px;
+    height: 30px;
+    border: 4px solid white;
+    border-radius: 50%;
+    border-top-color: #0931a1;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    pointer-events: none;
+}
+.samplePlay_loading {
+    width: 20px;
+    height: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    border-top-color: #0931a1;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    pointer-events: none;
+}
+.showDefault_loading {
+    margin: 0 auto;
+    display: none;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: black;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    margin-bottom: 50px;
+}
+.down_loading {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: black;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+		to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+#referenceWaveform{
+	display: none;
+}
+.step04 {
+   min-height: 760px;
+}
+.downMainTitleBox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 500px;
+}
+.downMainTitle {
+   	font-size: 1.4em;
+}
+.downLoadForm {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width:1100px;
+    display: none;
+}
+.downLoadBox {
+    border: 1px solid #000;
+    margin: 6em 0px;
+    height: 320px;
+    background-color: #151616;
+    border-left: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.downLoadBox:nth-child(1) {
+   	border-left: 1px solid #000;
+}
+.downLoadBox:hover{
+	background-color: #000;
+}
+.downTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+}
+.downScoreImg {
+    border: 0;
+    background: url(../../image/download/myScore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: unset;
+    width: 100%;
+    margin: 0;
+    height: 218px;
+}
+.downURL {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    margin-top: 0.5em;
+}
+.URLDownFont {
+    font-size: 1.4em;
+}
+.URLDownImg {
+    display: inline-block;
+    background-image: url(../../image/download/downImg.png);
+    width: 2em;
+    background-size: cover;
+    height: 2em;
+    cursor: pointer;
+}
+.musicCDBox {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 220px;
+    background: linear-gradient(0.55turn, #6f5569, #1a496d);
+    justify-content: center;
+    align-items: center;
+}
+.musicCDShadow {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 23px -5px #000000;
+}
+.musicCD {
+    position: relative;
+    border: 1px solid #525252;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: linear-gradient(0.25turn, #252424, #000000);
+    justify-content: center;
+    align-items: center;
+}
+.musicCDHole {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #b22e2e;
+    justify-content: center;
+    align-items: center;
+}
+.musicCDHoleInner {
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 100%;
+}
+.cdTitle {
+   	transform: skew(47deg,-48deg);
+    position: absolute;
+    bottom: 22%;
+    right: 10%;
+    font-size: 10px;
+}
+.downMidiImg {
+    border: 0;
+    background: url(../../image/download/myMidi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: unset;
+    width: 100%;
+    margin: 0;
+    height: 218px;
+}
+/*모달 */
+.composeModal{
+	display:none;
+	background-color: rgba( 000, 000, 000, 0.8 );
+	/*width: 100%; */
+	/*height: 100%; */
+    z-index: 100;
+    position: absolute;
+    top: 0;
+	/*display: flex; */
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+.composeModalBox {
+    width: 400px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #868686;
+    position: relative;
+}
+.composeModalContent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadSubjectInputBox {
+    text-align: center;
+}
+.downloadMP3Input {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.downloadSubjectInputAlert {
+    color: #ff8a8a;
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+.confirmModalBtnBox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.confirmModalBtn {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 30px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.downloadSubjectTitle {
+    margin-bottom: 3px;
+}
+.downloadSubjectInput {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.downloadCreateUserInput {
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+}
+.confirmMsgLoading{
+	display: none;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: black;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+.referenceRemoconBox {
+    background-color: black;
+    height: 53px;
+    width: 930px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.detailPlayBtn{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.detailPlayBtnPlay{
+	background: url(../../image/album_cover/samplePlay.png);
+    background-size: cover;
+}
+.detailPlayBtnPause{
+	background: url(../../image/album_cover/samplePause.png);
+    background-size: cover;
+}
+.detailApplyBtn {
+    width: 100px;
+    color: #fff;
+    height: 37px;
+/*     display: flex; */
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    cursor: pointer;
+}
+.playBlink {
+	-webkit-animation: nextBlink 2s linear infinite;
+	animation: nextBlink 2s linear infinite;
+	pointer-events: none;
+}
+.midiBlink {
+	-webkit-animation: nextBlink 2s linear infinite;
+}
+@keyframes nextBlink {
+	0%	{opacity:0;}
+	25%	{opacity:0.5;}
+	50%	{opacity:1;}
+	75%	{opacity:0.5;}
+	100%{opacity:0;}
+}
+.albumCoverBox{
+    width: 500px;
+    height: 500px;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0) 0px 0px 10px 9px;
+/*     display: none; */
+}
+.cdCase{
+	background-color: #35b445;
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    left: 51.7%;
+    z-index: 5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0) 0px 0px 15px 0px;
+    transition:all 0.1s;
+}
+.albumCoverBox>.infinite_rotating{
+	animation: spin 20s infinite linear;
+	-webkit-animation: spin 20s infinite linear;
+}
+@keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	to { -webkit-transform: rotate(360deg); }
+}
+.cdPlay{
+    background-color: blue;
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    z-index: 8;
+    box-shadow: rgb(0 0 0) 3px 0px 5px 0px;
+}
+.cdCaseHoleLine{
+	background-color: #36393c;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(55 57 60) 0px 0px 20px 7px inset;
+}
+.cdCaseHole{
+    background-color: #26282b;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: rgb(55 57 60) 0px 0px 20px 7px, rgb(0 0 0) 0px 0px 14px 0px inset;
+    border: 1px solid #000000;
+}
+.cdPlayerBox {
+    background-color: #0f1012;
+    width: 520px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+/*     display: flex; */
+    box-shadow: rgb(0 0 0) 0px 0px 10px -2px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+}
+.cdPlayerLi {
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cdPlayerBtn {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.cdPlayerPlay{
+	background: url(../../image/album_cover/samplePlay.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cdPlayerPause{
+	background: url(../../image/album_cover/samplePause.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.changeAlbumImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #26282b;
+    cursor: pointer;
+}
+.soundController {
+ -webkit-appearance: none; 
+ width: 100%; 
+ height: 6px;
+ background: #d5d4d3; 
+ cursor: pointer;
+ border-radius: 5px; /* iOS */
+ transition: background 450ms ease-in;
+}
+
+.soundController:focus {
+  outline: none; 
+}
+ .soundController::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border: 1px solid dodgerblue;
+  border-radius:50%;
+  cursor: pointer;
+}
+ .soundController::-moz-range-thumb{
+  -webkit-appearance: none;
+  width:10px;
+  height:10px;
+  background: #fff;
+  border: 1px solid dodgerblue;
+  border-radius:50%;
+  cursor: pointer;
+}
+.finalAlbumName{
+	outline: none;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.createAlbumBtn{
+	width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 30px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.finalAlbumNameAlert{
+	color: #ff8a8a;
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+#sampleWaveForm1,#sampleWaveForm2,#sampleWaveForm3{
+	background-color: #393a3b;
+    overflow: hidden;
+    width: 100%;
+}
+.testSpace{
+    width: 500px;
+    margin: 1px auto;
+    margin-bottom: 25px;
+    height: 3em;
+}
+.off{
+	background-color: #272727 !important;
+}
+.LoadsongformBox{
+	display: none;
+}
+.datail_alert {
+    margin: auto;
+    margin-top: 84px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailSettingBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.detailSettingBox>.trackTitle{
+    background: #000;
+    display: flex;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.detailSettingBox>.InstName {
+    background: #000;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+.detailSettingBox>.InstName>div>#InstNameImg{
+	width: 55px;
+	margin-left: 10px;
+}
+.detailSettingBox>.InstName>.InstNameTitle{
+    margin-left: 5px;
+}
+.detailSettingBox>.changeInstBox>.changeInst {
+    background: #353535;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.detailSettingBox>.changeInstBox{
+	width: 65%;
+    display: flex;
+    height: inherit;
+}
+.changeInstBox>.changeInst>.instBtnBox{
+    margin: 0 auto;
+	height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.changeInstBox>.changeInst>.instPlayBtn{
+	background: url(../../image/button/ApplyMusicPlayType.png) no-repeat;
+    background-size: contain;
+}
+.changeInstBox>.changeInst>.instPauseBtn{
+	background: url(../../image/button/ApplyMusicPauseType.png) no-repeat;
+    background-size: contain;
+}
+@media ( min-width : 768px) and (max-width: 991px) {
+	.downLoadForm{
+		width: auto;
+	}
+	.referenceSwiper-container{
+		overflow: hidden;
+	    width: 100%;
+	    margin: 0.5em auto;
+	    perspective: 200px;
+	}
+	.referenceContentBox {
+	    height: 370px;
+	    margin: 0 auto;
+	    position: relative;
+	    width: 350px;
+	}
+	.referenceCardBox {
+		border: 1px solid #000;
+		width: 350px;
+	}
+	.selectMusicBtnBox{
+		display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    width: 350px;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
+	.selectMusicBtn{
+		width: 130px;
+	    height: 50px;
+	    background-color: #0f1012;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    font-size: 1em;
+	    cursor: pointer;	
+	}
+	.compose_container {
+	    height: 100%;
+	    min-height: 300px;
+	    margin-top: 80px;
+	    padding: 10px;
+	    width: 830px;
+	    display: none;
+	    margin: 0 auto;
+	    
+	}
+	.warning_Box {
+	    height: 100%;
+	    min-height: 300px;
+	    padding: 0;
+	    width: 730px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin: 0 auto;
+	    font-size: 20px;
+	    z-index: 10000;
+/* 	    display: none; */
+	}
+	.referenceContentBox>.contentTitleBox {
+		align-items: center;
+	    display: flex;
+	    height: 20%;
+	    justify-content: center;
+	    position: relative;
+	    width: 100%;
+	}
+	.referenceContentBox>.contentTitleBox>.contentTitle {
+		color: #ffffff;
+		font-size: 2em;
+		font-weight: bolder;
+		margin: 0;
+	}
+	.referenceContent{
+		padding: 0px;
+	    height: 80%;
+	    overflow-y:overlay;
+	    background: #323232;
+	}
+	.musicLiBoxImg{
+		width: 45px;
+	    height: 45px;
+		/*background-color: #191919; */
+	}
+	.Content_musicLiBox {
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    margin: 0.1em 0;
+	    height: 3.5em;
+	    transition: all 0.2s;
+	    cursor: pointer;
+	}
+	.selectOption{
+	    width: 20px;
+	    height: 20px;
+	}
+	.downLoadBox {
+	    border: 1px solid #000;
+	    margin: 6em 0px;
+	    height: 320px;
+	    background-color: #151616;
+	    border-left: none;
+	    cursor: pointer;
+	    transition: all 0.2s;
+	}
+	.referenceRemoconBox {
+        background-color: black;
+	    height: 53px;
+	    width: 830px;
+	    margin: 0 auto;
+	    margin-bottom: 60px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    display: none;
+	}
+	.albumCoverBox{
+	    width: 400px;
+	    height: 400px;
+	    margin: 7em auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    box-shadow: rgb(0 0 0) 0px 0px 10px 9px;
+	}
+	.cdCase{
+		background-color: #35b445;
+	    width: 360px;
+	    height: 360px;
+	    position: absolute;
+	    left: 51.7%;
+	    z-index: 5;
+	    border-radius: 50%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    box-shadow: rgb(0 0 0) 0px 0px 15px 0px;
+	    transition:all 0.1s;
+	}
+	.cdCaseHoleLine{
+		background-color: #36393c;
+	    width: 130px;
+	    height: 130px;
+	    border-radius: 50%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    box-shadow: rgb(55 57 60) 0px 0px 20px 7px inset;
+	}
+	.cdCaseHole{
+	    background-color: #26282b;
+	    width: 50px;
+	    height: 50px;
+	    border-radius: 50%;
+	    box-shadow: rgb(55 57 60) 0px 0px 20px 7px, rgb(0 0 0) 0px 0px 14px 0px inset;
+	    border: 1px solid #000000;
+	}
+	.cdPlay{
+	    background-color: blue;
+	    width: 400px;
+	    height: 400px;
+	    position: absolute;
+	    z-index: 8;
+	    box-shadow: rgb(0 0 0) 3px 0px 5px 0px;
+	}
+}

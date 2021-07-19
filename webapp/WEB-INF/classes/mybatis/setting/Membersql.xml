@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+<!-- id가 있는지 체크 -->
+<!-- 	<select id="checkIdOfMember2" parameterType="String" resultType="int"> -->
+<!-- 	select count(*) from userlist where myid = #{myid}  -->
+<!-- 	</select> -->
+	
+<!-- 	insert -->
+<!-- 	<insert id="insertOfMembers" parameterType="udto"> -->
+<!-- 		insert into userlist values (seq_test.nextval,#{name},#{myid},#{pass},#{photoname},#{hp},sysdate) -->
+<!-- 	</insert> -->
+<!-- 	전체 조회 -->
+<!-- 	<select id="selectAllOfMember2" resultType="udto"> -->
+<!-- 		select * from userlist order by myid asc -->
+<!-- 	</select> -->
+	
+	<!--로그인 -->
+	<select id="checkPassOfMember2" parameterType="HashMap" resultType="int">
+		select count(*) from aism_user_membership_info where BINARY id=#{id} and pwd=#{pwd} and pearlmission = 1
+	</select>
+	<!--로그인시 로그인시간정보 넣기 -->
+	<insert id="loginTime" parameterType="HashMap">
+		insert into aism_user_login_history values(DEFAULT,DEFAULT,#{id});
+	</insert>
+	<!--아이디 중복 확인 -->
+	<select id="isCheckIdMember" parameterType="HashMap" resultType="int">
+		select count(id) from aism_user_membership_info where BINARY id=#{userid}
+	</select>
+	<!--회원가입 -->
+	<insert id="insertOfMembers" parameterType="udto">
+		insert into aism_user_membership_info(nowtime, id, pwd, email, pearlmission, phone, profile, username ) values (DEFAULT,#{id},#{pwd},#{email},0,#{phone},"default", #{username})
+	</insert>
+	<!--아이디 찾기 -->
+	<select id="findMemberId" parameterType="HashMap" resultType="String">
+		select id from aism_user_membership_info where BINARY birthyear=#{birthyear} and email=#{email}
+	</select>
+	<!--비밀번호찾기 -->
+	<select id="findMemberPwd" parameterType="HashMap" resultType="int">
+		select count(*) from aism_user_membership_info where BINARY id=#{id} and email=#{email}
+	</select>
+	<!--비밀번호 분실후 재설정하기 -->
+	<update id="findMemberUpdatePwd" parameterType="HashMap">
+		update aism_user_membership_info set pwd = #{updatepwd} where BINARY id=#{id} and email=#{email}
+	</update>
+	<!--회원정보출력 -->
+	<select id="memberInfo" parameterType="HashMap" resultType="udto">
+		select * from aism_user_membership_info where BINARY id=#{id}
+	</select>
+	<!--회원정보 수정 -->
+	<update id="updateUserInfo" parameterType="HashMap">
+		update aism_user_membership_info set  phone=#{phone} , addr=#{addr} , email=#{email} , job=#{job} , profile=#{profile}, username =#{username}, nick =#{nick} where BINARY id=#{id} 
+	</update>
+	<!--프로필 이미지 가져오기 -->
+	<select id="findMemberProfileImg" parameterType="HashMap" resultType="String">
+		select profile from aism_user_membership_info where BINARY id=#{id}
+	</select>
+	
+	<!--나의 곡 리스트 입력 -->
+	<insert id="insertWorkList" parameterType="workdto">
+		insert into aism_user_work_list(numbering, user, subject, createdate, composetype, songinfo1, songinfo2, albumcover , sell ,price) values (DEFAULT,#{user},#{subject},#{createdate},#{composetype},#{songinfo1},#{songinfo2},#{albumcover},"no","0")
+	</insert>
+	
+	<!--나의 곡 리스트 가져오기 -->
+	<select id="selectWorkList" resultType="hashmap">
+		select * from aism_user_work_list where user = #{username}
+	</select>
+	
+	<!--나의 곡 리스트 삭제 -->
+	<delete id="deletetWorkList" parameterType="HashMap">
+		delete from aism_user_work_list where user=#{user} and subject =#{project};
+	</delete>
+	<!--내 작업리스트중 중복된 이름이 있을경우 -->
+	<select id="hasWorkList" parameterType="HashMap" resultType="int">
+		select count(*) from aism_user_work_list where user=#{user} and subject =#{project};
+	</select>
+	
+	<!--내 작업리스트 상세보기(판매하기) -->
+	<select id="showDetailAlbum" parameterType="HashMap" resultType="workdto">
+		select * from aism_user_work_list where user=#{user} and  subject =#{albumName};
+	</select>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--삭제 -->
+<!-- 	<delete id="deleteOfMember2" parameterType="String"> -->
+<!-- 		delete from userlist where num=#{num} -->
+<!-- 	</delete> -->
+<!-- 	num에 해당하는 data 반환 -->
+<!-- 	<select id="selectOneOfMember2" parameterType="String" resultType="udto"> -->
+<!-- 		select * from userlist where num=#{num} -->
+<!-- 	</select> -->
+	
+<!-- 	<select id="selectNameOfMember2" parameterType="String" resultType="String"> -->
+<!-- 		select name from userlist where myid=#{myid} -->
+<!-- 	</select> -->
+	
+<!-- 	<select id="selectImgOfMember2" parameterType="String" resultType="String"> -->
+<!-- 		select photoname from userlist where myid=#{myid} -->
+<!-- 	</select> -->
+</mapper>
