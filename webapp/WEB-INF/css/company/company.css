@@ -212,11 +212,11 @@ input.contact_inputBox {
 }
 
 .project_title {
-	width: 375px;
+	width: 500px;
 }
 
 .project {
-	width: 375px;
+	width: 500px;
 	justify-content: flex-start;
 }
 
@@ -266,4 +266,12 @@ input.contact_inputBox {
 .working{
 	background: black !important;
     opacity: 0.3;
+}
+
+
+.title_column {
+    position: sticky;
+    top: 5vh;
+    background: #212121;
+    z-index: 100;
 }

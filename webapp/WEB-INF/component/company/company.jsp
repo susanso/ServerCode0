@@ -77,7 +77,7 @@
 		</form>
 	</div>
 	<div class="project_container">
-		<div class="column_content">
+		<div class="column_content title_column">
 			<div class="column_item date_title">발매 년월</div>
 			<div class="column_item project_title">프로젝트명</div>
 			<div class="column_item track_number_title">트랙 넘버</div>
@@ -318,7 +318,7 @@
 			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1PUcToJ2XEmRjEu3HGSk6p-KmFNfQYxAd/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -329,7 +329,7 @@
 			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1tbZdVWEFoWZ2XqmzhdWntynjtjP1AX2s/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -428,7 +428,7 @@
 			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1r3Xv_aHDr1hyNVND77scTeuxfeYsjVef/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -439,7 +439,7 @@
 			 
 			<div class="column_item create_ai_song">  -  </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1wIAL8m-93TMF6dZgjBKcjX7wl5UJJtgl/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		
@@ -507,7 +507,7 @@
 				<a href="https://drive.google.com/file/d/1A6178AHU8qkEnzxZls076w35Tz5Z2nFi/view?usp=sharing" target='_blank'>Link</a> 
 		    </div>
 			<div class="column_item result_song">
-				-
+				<a href="https://drive.google.com/file/d/1mDv2mMY3gVEcehT6_EBeOScdfj_RBRct/view?usp=sharing" target='_blank'>Link</a>
 			</div>
 		</div>
 		<div class="column_content">
@@ -520,22 +520,10 @@
 				<a href="https://drive.google.com/file/d/1n48ibuDKl44HnDluG7Bu7rdSnpMl7V9r/view?usp=sharing" target='_blank'>Link</a>  
 			</div>
 			<div class="column_item result_song">
-				<a href="https://www.youtube.com/watch?v=tWkPIyKLYoA" target='_blank'>YouTube</a>
+				<a href="https://www.youtube.com/watch?v=tWkPIyKLYoA" target='_blank'>Link</a>
 			</div>
 		</div>
 		<!-- 여기서부터 가상악기 -->
-		<div class="column_content upgrade_version">
-			<div class="column_item date">21-05-30</div>
-			<div class="column_item project">GS 칼텍스 키워드 작곡 프로젝트 </div>
-			<div class="column_item track_number">-</div>
-			<div class="column_item song_title">-</div>
-			 
-			<div class="column_item create_ai_song">  -  </div>
-			<div class="column_item result_song">
-				-
-			</div>
-		</div>
-		
 		<div class="column_content upgrade_version">
 			<div class="column_item date">21-06-01</div>
 			<div class="column_item project">LG전자 김래아 프로젝트 </div>
@@ -553,7 +541,7 @@
 			<div class="column_item date">21-06-22</div>
 			<div class="column_item project">비패밀리 헬로카봇 프로젝트 </div>
 			<div class="column_item track_number">1</div>
-			<div class="column_item song_title">  -  </div>
+			<div class="column_item song_title">  등장송 샘플_01  </div>
 			 
 			<div class="column_item create_ai_song">
 				<a href="https://drive.google.com/file/d/1nXm90CVFNaH4lO9PurO7_eTc3micQVMt/view?usp=sharing" target='_blank'>Link</a>
@@ -566,7 +554,7 @@
 			<div class="column_item date">21-06-22</div>
 			<div class="column_item project">비패밀리 헬로카봇 프로젝트 </div>
 			<div class="column_item track_number">2</div>
-			<div class="column_item song_title">  -  </div>
+			<div class="column_item song_title">  등장송 샘플_02  </div>
 			 
 			<div class="column_item create_ai_song">
 				<a href="https://drive.google.com/file/d/1nXm90CVFNaH4lO9PurO7_eTc3micQVMt/view?usp=sharing" target='_blank'>Link</a>
@@ -1120,7 +1108,7 @@
 		<div class="column_content working">
 			<div class="column_item date">21-07-12</div>
 			<div class="column_item project">경남 fc 프로젝트</div>
-			<div class="column_item track_number">3</div>
+			<div class="column_item track_number">13</div>
 			<div class="column_item song_title"> B03</div>
 			 
 			<div class="column_item create_ai_song">  작업중  </div>
